@@ -1,0 +1,1339 @@
+{
+  "dashboard": {
+    "welcomeBack": "Willkommen zurück, {{name}}!",
+    "continueJourney": "Setzen Sie Ihre Lernreise fort.",
+    "coursesEnrolled": "Eingeschriebene Kurse",
+    "courses": "Kurse",
+    "certificatesEarned": "Erworbene Zertifikate",
+    "certs": "Zerts",
+    "totalHoursLearned": "Gesamte Lernstunden",
+    "hours": "Stunden",
+    "activeGroups": "Aktive Gruppen",
+    "groups": "Gruppen",
+    "loadingDashboard": "Dashboard wird geladen..."
+  },
+  "awareness": {
+    "title": "Informationen & Aktuelles",
+    "subtitle": "Bleiben Sie informiert über Arbeitsreformen, Webinare und Schulungsprogramme.",
+    "latestAnnouncements": "Neueste Ankündigungen",
+    "new": "Neu",
+    "watchNow": "Jetzt ansehen",
+    "readMore": "Mehr lesen",
+    "poweredBy": "Unterstützt von",
+    "labourReformInitiative": "Arbeitsreform-Initiative",
+    "types": {
+      "reform": "Arbeitsreform",
+      "webinar": "Webinar",
+      "video": "Video-Schulung"
+    },
+    "announcements": {
+      "labourCode": {
+        "title": "Neue Arbeitsgesetzgebung Phase 2",
+        "description": "Die Regierung kündigt die zweite Phase der Arbeitsrechtsreformen an, die sich auf den Schutz der Arbeitnehmer und die digitale Compliance-Überwachung konzentriert. Dieses umfassende Update umfasst neue Richtlinien für Arbeitgeber, erweiterte Arbeitnehmerrechte und digitale Tracking-Mechanismen zur Gewährleistung der Compliance."
+      },
+      "compliance": {
+        "title": "Webinar-Reihe zur Arbeitsplatz-Compliance",
+        "description": "Nehmen Sie an unserer interaktiven Webinar-Reihe zur Aufrechterhaltung von Compliance-Standards am Arbeitsplatz gemäß neuer Arbeitsvorschriften teil. Experten führen Sie durch Best Practices, Fallstudien und Frage-und-Antwort-Sitzungen."
+      },
+      "digitalLiteracy": {
+        "title": "Digitale Kompetenz-Schulungsprogramm",
+        "description": "Schauen Sie sich unsere umfassende Videoserie zur digitalen Kompetenz für Arbeitnehmer an. Lernen Sie wesentliche technische Fähigkeiten, Online-Sicherheit und digitale Tools kennen, die Ihre Belegschaft am modernen Arbeitsplatz stärken."
+      }
+    }
+  },
+  "calendar": {
+    "title": "Kalender & Veranstaltungen",
+    "today": "Heute",
+    "upcomingEvents": "Bevorstehende Veranstaltungen",
+    "noEvents": "Keine Veranstaltungen geplant",
+    "addToCalendar": "Zum Kalender hinzufügen",
+    "joinNow": "Jetzt beitreten",
+    "viewAll": "Alle Veranstaltungen anzeigen"
+  },
+  "learning": {
+    "title": "Meine Kurse",
+    "subtitle": "Setzen Sie Ihre Lernreise mit Kursen fort, die darauf ausgelegt sind, das Bewusstsein für Arbeitsrecht und digitale Fähigkeiten zu stärken.",
+    "continueLearning": "Kurs fortsetzen",
+    "startCourse": "Jetzt starten",
+    "resume": "Fortsetzen",
+    "completed": "Abgeschlossen",
+    "inProgress": "In Bearbeitung",
+    "notStarted": "Nicht begonnen",
+    "viewCourse": "Kurs ansehen",
+    "viewAll": "Alle Kurse anzeigen",
+    "progress": "Fortschritt",
+    "modules": "Module",
+    "lessons": "Lektionen",
+    "coursesActive": "{{count}} von {{total}} Kurse aktiv",
+    "supportedBy": "Unterstützt von",
+    "levels": {
+      "Beginner": "Anfänger",
+      "Intermediate": "Fortgeschritten",
+      "Advanced": "Experte"
+    },
+    "courses": {
+      "digitalLiteracy": {
+        "title": "Digitale Kompetenz für Arbeitnehmer",
+        "description": "Meistern Sie wesentliche digitale Fähigkeiten, um in modernen Arbeitsplätzen erfolgreich zu sein."
+      },
+      "labourCodes": {
+        "title": "Verständnis neuer Arbeitsgesetze",
+        "description": "Erfahren Sie mehr über Ihre Rechte und Pflichten gemäß reformierter Arbeitsgesetze."
+      },
+      "trainerProgram": {
+        "title": "Trainer-Befähigungsprogramm",
+        "description": "Entwickeln Sie Fähigkeiten, um andere effektiv über Arbeitsreformen und digitale Tools zu schulen."
+      },
+      "compliance": {
+        "title": "Arbeitsplatz-Compliance-Bewusstsein",
+        "description": "Verstehen und implementieren Sie Compliance-Standards und Sicherheitsprotokolle am Arbeitsplatz."
+      },
+      "certification": {
+        "title": "Professioneller Zertifizierungspfad",
+        "description": "Absolvieren Sie strukturierte Lernmodule, um anerkannte professionelle Zertifizierungen zu erwerben."
+      },
+      "leadership": {
+        "title": "Führung & Management Grundlagen",
+        "description": "Bauen Sie Führungskompetenzen für effektives Team- und Projektmanagement auf."
+      }
+    }
+  },
+  "community": {
+    "title": "Gruppen & Community",
+    "subtitle": "Verbinden, zusammenarbeiten und lernen Sie mit Kollegen, Trainern und Arbeitgebern",
+    "myGroups": "Meine Gruppen",
+    "joinGroup": "Gruppe beitreten",
+    "viewGroup": "Gruppe ansehen",
+    "members": "Mitglieder",
+    "active": "Aktiv",
+    "viewAll": "Alle Gruppen anzeigen",
+    "groupsJoined": "Beigetretene Gruppen",
+    "posts": "Beiträge",
+    "announcements": "Ankündigungen",
+    "media": "Medien",
+    "noGroupsFound": "Keine Gruppen gefunden",
+    "tryAdjustingFilters": "Versuchen Sie, Ihre Filter oder Suchanfrage anzupassen",
+    "searchPlaceholder": "Gruppen oder Diskussionen suchen...",
+    "supportedBy": "Unterstützt von",
+    "deutscheGesellschaft": "Deutsche Gesellschaft",
+    "filters": {
+      "all": "Alle",
+      "myGroups": "Meine Gruppen",
+      "employer": "Arbeitgeber",
+      "trainer": "Trainer",
+      "learner": "Lernender",
+      "policy": "Richtlinie"
+    },
+    "groups": {
+      "employerHub": {
+        "name": "Arbeitgeber-Hub",
+        "description": "Offizielle Gruppe für Arbeitgeber zur Diskussion von Compliance, Best Practices und Personalmanagement."
+      },
+      "trainerCircle": {
+        "name": "Trainer-Kreis",
+        "description": "Verbinden Sie sich mit Kollegen-Trainern, um Ressourcen, Methodologien und Erfolgsgeschichten auszutauschen."
+      },
+      "workerForum": {
+        "name": "Arbeiter-Forum",
+        "description": "Offizielle Community für Arbeiter, um über Rechte zu lernen, Fragen zu stellen und sich gegenseitig zu unterstützen."
+      },
+      "policyCompliance": {
+        "name": "Richtlinien- & Compliance-Netzwerk",
+        "description": "Offizielle Gruppe für Richtliniendiskussionen, Compliance-Updates und regulatorische Anleitung."
+      }
+    }
+  },
+  "insights": {
+    "title": "Kurs- und Bewertungseinblicke",
+    "subtitle": "Verfolgen Sie Ihren Lernfortschritt und Ihre Leistung",
+    "moduleProgress": "Modulfortschritt",
+    "completion": "Abschluss",
+    "engagement": "Engagement",
+    "pathwayTracker": "Lernpfad-Tracker",
+    "recommended": "Empfohlen",
+    "actual": "Tatsächlicher Fortschritt",
+    "pathwayMatch": "folgt dem empfohlenen Pfad",
+    "assessmentBreakdown": "Bewertungsanalyse",
+    "correct": "Richtig",
+    "incorrect": "Falsch",
+    "unattempted": "Nicht versucht",
+    "difficultyAnalysis": "Schwierigkeitsanalyse",
+    "easy": "Einfach",
+    "medium": "Mittel",
+    "hard": "Schwer",
+    "strengths": "Top-Stärken",
+    "weaknesses": "Verbesserungsbereiche",
+    "score": "Punktzahl",
+    "topic": "Thema",
+    "engagementHeatmap": "Engagement-Heatmap",
+    "module": "Modul",
+    "week": "Woche",
+    "legend": "Legende",
+    "low": "Niedrig",
+    "good": "Gut",
+    "excellent": "Ausgezeichnet",
+    "topics": {
+      "labourLaws": "Arbeitsgesetze",
+      "digitalTools": "Digitale Tools",
+      "compliance": "Compliance",
+      "advancedPolicies": "Fortgeschrittene Richtlinien",
+      "legalFramework": "Rechtsrahmen",
+      "caseStudies": "Fallstudien"
+    }
+  },
+  "quickActions": {
+    "title": "Schnellaktionen",
+    "subtitle": "Machen Sie den nächsten Schritt auf Ihrer Lernreise",
+    "viewAllActions": "Alle Aktionen anzeigen",
+    "poweredBy": "Unterstützt von",
+    "labourReformInitiative": "Arbeitsreform & Digitale Lerninitiative",
+    "actions": {
+      "enrollPathway": {
+        "title": "In nächsten Lernpfad einschreiben",
+        "description": "Setzen Sie Ihre Lernreise mit empfohlenen Kursen fort"
+      },
+      "joinDiscussion": {
+        "title": "An Gruppendiskussion teilnehmen",
+        "description": "Vernetzen Sie sich mit Kollegen und teilen Sie Erkenntnisse"
+      },
+      "watchVideo": {
+        "title": "Featured Reform-Video ansehen",
+        "description": "Bleiben Sie über die neuesten Arbeitsreforminitiativen informiert"
+      },
+      "giveFeedback": {
+        "title": "Feedback geben / Thema vorschlagen",
+        "description": "Helfen Sie uns, Ihre Lernerfahrung zu verbessern"
+      }
+    }
+  },
+  "zoom": {
+    "title": "Zoom-Klassen Verwaltung",
+    "scheduleNewClass": "Neue Klasse planen",
+    "upcomingClasses": "Kommende Klassen",
+    "completedClasses": "Abgeschlossene Klassen",
+    "noUpcoming": "Keine kommenden Klassen geplant",
+    "noCompleted": "Noch keine abgeschlossenen Klassen",
+    "joinViaZoom": "Via Zoom beitreten",
+    "viewRecording": "Aufzeichnung ansehen",
+    "download": "Herunterladen",
+    "downloadRecording": "Aufzeichnung herunterladen",
+    "edit": "Bearbeiten",
+    "editClass": "Klasse bearbeiten",
+    "delete": "Löschen",
+    "scheduleClass": "Klasse planen",
+    "updateClass": "Klasse aktualisieren",
+    "classTitle": "Klassentitel",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "duration": "Dauer",
+    "description": "Beschreibung",
+    "zoomMeetingLink": "Zoom-Meeting-Link (optional)",
+    "enterClassTitle": "Klassentitel eingeben",
+    "enterDescription": "Beschreibung eingeben",
+    "recordingPlayer": "Aufzeichnungsplayer",
+    "classHeldOn": "Klasse am {{date}} um {{time}} abgehalten",
+    "attendance": "Teilnahme: {{count}}/{{total}} Studenten",
+    "durations": {
+      "30min": "30 Minuten",
+      "1hour": "1 Stunde",
+      "1.5hours": "1,5 Stunden",
+      "2hours": "2 Stunden",
+      "3hours": "3 Stunden"
+    },
+    "sampleClasses": {
+      "insuranceSales": {
+        "title": "Fortgeschrittener Versicherungsvertrieb - Modul 3",
+        "description": "Tiefgreifende Einblicke in Methoden des Versicherungsvertriebs und Kundenengagement"
+      },
+      "lifeInsurance": {
+        "title": "Lebensversicherungs-Vertriebsworkshop",
+        "description": "Praktischer Workshop zu Techniken im Lebensversicherungsvertrieb"
+      },
+      "portfolioManagement": {
+        "title": "Versicherungsportfolio-Management",
+        "description": "Strategische Ansätze für das Management von Versicherungsportfolios"
+      },
+      "compliance": {
+        "title": "Versicherungs-Compliance-Updates",
+        "description": "Neueste Updates zu regulatorischen Compliance-Anforderungen im Versicherungswesen"
+      }
+    }
+  },
+  "courses": {
+    "title": "Kurse",
+    "subtitle": "Verwalten Sie Ihren Kurskatalog und erstellen Sie neue Lernerfahrungen",
+    "myCourses": "Meine Kurse",
+    "allCourses": "Alle Kurse",
+    "enrolled": "Eingeschrieben",
+    "available": "Verfügbar",
+    "completed": "Abgeschlossen",
+    "enroll": "Einschreiben",
+    "continue": "Fortsetzen",
+    "start": "Starten",
+    "view": "Ansehen",
+    "instructor": "Dozent",
+    "duration": "Dauer",
+    "level": "Level",
+    "students": "Studenten",
+    "createCourse": "Kurs erstellen",
+    "searchPlaceholder": "Kurse suchen...",
+    "allLevels": "Alle Niveaus",
+    "allStatus": "Alle Status",
+    "catalog": "Katalog",
+    "grid": "Raster",
+    "list": "Liste",
+    "enrolling": "Einschreibung",
+    "course": "Kurs",
+    "status": "Status",
+    "accessType": "Zugriffstyp",
+    "actions": "Aktionen",
+    "sequential": "Sequenziell",
+    "openAccess": "Offener Zugang",
+    "tabs": {
+      "courses": "Kurse",
+      "archived": "Archiviert",
+      "deleted": "Gelöscht"
+    },
+    "levels": {
+      "beginner": "Anfänger",
+      "intermediate": "Mittelstufe",
+      "advanced": "Fortgeschritten"
+    },
+    "statuses": {
+      "active": "Aktiv",
+      "draft": "Entwurf",
+      "archived": "Archiviert",
+      "published": "Veröffentlicht"
+    },
+    "catalogs": {
+      "labourReform": "Arbeitsreform",
+      "digitalSkills": "Digitale Fähigkeiten",
+      "policyReform": "Politik & Reform"
+    },
+    "toasts": {
+      "catalog": "Katalog",
+      "redirectingToCatalog": "Weiterleitung zum Kurskatalog",
+      "editCourse": "Kurs bearbeiten",
+      "openingEditPage": "Öffnen der Bearbeitungsseite für {{name}}",
+      "courseArchived": "Kurs archiviert",
+      "courseMovedToArchived": "{{name}} wurde zu den archivierten Kursen verschoben.",
+      "courseDeleted": "Kurs gelöscht",
+      "courseMovedToDeleted": "{{name}} wurde zu den gelöschten Kursen verschoben.",
+      "courseRestored": "Kurs wiederhergestellt",
+      "courseRestoredToActive": "{{name}} wurde zu den aktiven Kursen wiederhergestellt."
+    },
+    "sampleCourses": {
+      "strategicCommunication": {
+        "title": "Strategische Kommunikation",
+        "description": "Meistern Sie effektive Kommunikationsstrategien für Arbeitsreform-Advocacy und Stakeholder-Zusammenarbeit in organisatorischen und politischen Kontexten."
+      },
+      "digitalLearningPathways": {
+        "title": "Digitale Lernpfade",
+        "description": "Erkunden Sie digitale Tools, E-Learning-Plattformen und innovative Wege für Kompetenzentwicklung und Arbeitskräfte-Ermächtigung im digitalen Zeitalter."
+      },
+      "stakeholderEngagement": {
+        "title": "Stakeholder-Engagement für Arbeitsreform-Initiativen",
+        "description": "Bauen Sie Expertise im Engagement verschiedener Stakeholder auf - Arbeitgeber, Arbeiter, Politiker - um bedeutungsvolle Arbeitsrechtsreformen und Compliance voranzutreiben."
+      }
+    }
+  },
+  "catalog": {
+    "title": "Kurskatalog",
+    "subtitle": "Verwalten Sie Kurskategorien und organisieren Sie Ihre Lerninhalte",
+    "addCatalog": "Katalog hinzufügen",
+    "searchPlaceholder": "Kataloge suchen...",
+    "freeCourses": "Kostenlose Kurse",
+    "freeCoursesDescription": "Premium-Lernerfahrungen ohne Kosten",
+    "premiumCourses": "Premium-Kurse",
+    "premiumCoursesDescription": "Fortgeschrittenes Lernen mit Expertenzertifizierung",
+    "featured": "EMPFOHLEN",
+    "premium": "PREMIUM",
+    "free": "KOSTENLOS",
+    "courses": "KURSE",
+    "noCatalogsFound": "Keine Kataloge gefunden, die Ihrer Suche entsprechen.",
+    "createNewCatalog": "Neuen Katalog erstellen",
+    "editCatalog": "Katalog bearbeiten",
+    "catalogName": "Katalogname",
+    "enterCatalogName": "Katalogname eingeben",
+    "description": "Beschreibung",
+    "enterCatalogDescription": "Katalogbeschreibung eingeben",
+    "createCatalog": "Katalog erstellen",
+    "updateCatalog": "Katalog aktualisieren",
+    "deleteConfirm": "Sind Sie sicher, dass Sie den Katalog \"{{name}}\" löschen möchten?",
+    "toasts": {
+      "catalogCreated": "Katalog erstellt",
+      "catalogCreatedSuccess": "Katalog {{name}} wurde erfolgreich erstellt.",
+      "catalogUpdated": "Katalog aktualisiert",
+      "catalogUpdatedSuccess": "Katalog wurde erfolgreich aktualisiert.",
+      "catalogDeleted": "Katalog gelöscht",
+      "catalogDeletedSuccess": "Katalog {{name}} wurde gelöscht."
+    },
+    "sampleCatalogs": {
+      "strategicCommunication": {
+        "name": "Strategische Kommunikationsplanung",
+        "description": "Entwickeln Sie strategische Kommunikationspläne für Arbeitsreform- und digitale Lerninitiativen mit Stakeholder-Mapping und Messaging-Frameworks",
+        "prize": "🏆 Zertifikat für Kommunikationsexzellenz"
+      },
+      "awarenessOutreach": {
+        "name": "Aufklärungs- & Outreach-Kampagnen",
+        "description": "Entwerfen und implementieren Sie Aufklärungskampagnen für Stakeholder, Arbeitgeber, Pädagogen und Lerner für maximale Wirkung",
+        "prize": "🎖️ Kampagnenstratege-Abzeichen"
+      },
+      "digitalLearningPathways": {
+        "name": "Digitale Lernpfade",
+        "description": "Erstellen Sie digitale Lerninhaltspfade und Kommunikationsmaterialien für Personalentwicklung und Kompetenzverbesserung",
+        "prize": "💡 Digitaler Innovator Award"
+      },
+      "policyReformAdvocacy": {
+        "name": "Politik- & Reform-Advocacy",
+        "description": "Stakeholder-Engagement-Strategien für Arbeitsrechtsreformen, Compliance und Politikumsetzung auf organisatorischer Ebene",
+        "prize": "👑 Master Policy Advocate Zertifizierung"
+      },
+      "technicalSupport": {
+        "name": "Technischer Support & Training",
+        "description": "Bereitstellung von technischem Support und Trainingsberatung für effektive Einführung von Arbeitsreform- und digitalen Lernprogrammen",
+        "prize": "🎓 Experten-Trainingsberater-Diplom"
+      },
+      "crisisCommunication": {
+        "name": "Krisenkommunikation & Medienstrategie",
+        "description": "Fortgeschrittenes Krisenmanagement, Medienbeziehungen und Stakeholder-Vertrauensstrategien für komplexe Reformumsetzungsszenarien",
+        "prize": "⭐ Master Krisenmanager Zertifizierung"
+      }
+    }
+  },
+  "resources": {
+    "pageTitle": "Ressourcen & Wissenszentrum",
+    "subtitle": "Entdecken Sie reformbezogene Erkenntnisse, digitale Lernleitfäden und politisches Wissen — alles an einem Ort.",
+    "searchPlaceholder": "Ressourcen, Berichte oder FAQs suchen…",
+    "filters": {
+      "policy": "Politik",
+      "training": "Schulung",
+      "employerGuides": "Arbeitgeber-Leitfäden",
+      "educatorResources": "Pädagogen-Ressourcen",
+      "caseStudies": "Fallstudien",
+      "gizReports": "GIZ-Berichte"
+    },
+    "featured": {
+      "title": "Empfohlen diese Woche",
+      "recommended": "Empfohlen von GIZ",
+      "readMore": "Mehr lesen",
+      "watchNow": "Jetzt ansehen"
+    },
+    "card": {
+      "view": "Ansehen",
+      "open": "Öffnen",
+      "download": "Herunterladen",
+      "bookmark": "Lesezeichen",
+      "fileSize": "Dateigröße",
+      "published": "Veröffentlicht"
+    },
+    "languages": {
+      "en": "Englisch",
+      "ar": "Arabisch",
+      "de": "Deutsch"
+    },
+    "noResults": "Keine Ressourcen gefunden",
+    "loading": "Ressourcen werden geladen..."
+  },
+  "groups": {
+    "title": "Meine Gruppen",
+    "subtitle": "Verwalten und teilnehmen Sie an Ihren eingeschriebenen Gruppen",
+    "createGroup": "Gruppe erstellen",
+    "discoverGroups": "Gruppen entdecken",
+    "openGroup": "Gruppe öffnen",
+    "searchPlaceholder": "Gruppen suchen...",
+    "allCategories": "Alle Kategorien",
+    "enrolled": "Eingeschrieben",
+    "members": "Mitglieder",
+    "noGroupsFound": "Keine Gruppen gefunden",
+    "tryAdjustingFilters": "Versuchen Sie, Ihre Suche oder Filter anzupassen",
+    "categories": {
+      "learnerFocused": {
+        "name": "Lerner-fokussiert",
+        "description": "Gruppen für Lerner zum Zusammenarbeiten und Fähigkeiten aufbauen"
+      },
+      "trainerFocused": {
+        "name": "Trainer-fokussiert",
+        "description": "Professionelle Räume für Trainer zum Austausch bewährter Praktiken"
+      },
+      "employerFocused": {
+        "name": "Arbeitgeber-fokussiert",
+        "description": "Gruppen mit Fokus auf Personalentwicklung und Innovation"
+      },
+      "initiativeWide": {
+        "name": "Initiativenweite",
+        "description": "Gemeinschaftsweite Initiativen und offizielle Updates"
+      }
+    },
+    "sampleGroups": {
+      "skillBuilders": {
+        "name": "Fähigkeitenaufbauer",
+        "description": "Lerner arbeiten zusammen, um Fähigkeiten aufzubauen."
+      },
+      "rightsAwareness": {
+        "name": "Rechte & Bewusstseinskreis",
+        "description": "Diskussionen über Arbeitsrechte und Reformen."
+      },
+      "trainerConnect": {
+        "name": "Trainer-Verbindung",
+        "description": "Raum für Trainer zum Austausch von Methoden und bewährten Praktiken."
+      },
+      "contentInnovators": {
+        "name": "Inhalts-Innovatoren",
+        "description": "Zusammenarbeit bei der Unterrichtsplanung und Erstellung von Kursen."
+      },
+      "workplaceChampions": {
+        "name": "Arbeitsplatz-Champions",
+        "description": "Arbeitgeber mit Fokus auf Personalentwicklung."
+      },
+      "complianceCircle": {
+        "name": "Compliance-Kreis",
+        "description": "Diskussion über Arbeitsreform-Richtlinien und Compliance-Strategien."
+      },
+      "campaignCatalysts": {
+        "name": "Kampagnen-Katalysatoren",
+        "description": "Diskussionen über GIZ-geführte Kampagnen und Aufklärungsmaßnahmen."
+      },
+      "eventSpotlight": {
+        "name": "Event-Spotlight",
+        "description": "Ankündigungen, Diskussionen und Feedback zu Workshops oder Webinaren."
+      }
+    }
+  },
+  "navigation": {
+    "home": "Startseite",
+    "courses": "Kurse",
+    "groups": "Gruppen",
+    "catalog": "Katalog",
+    "resources": "Ressourcen & Wissenszentrum",
+    "messages": "Nachrichten",
+    "help": "Hilfe & Support",
+    "profile": "Profil",
+    "settings": "Einstellungen",
+    "logout": "Abmelden",
+    "helpMenu": {
+      "faqs": "Häufige Fragen",
+      "contactSupport": "Support kontaktieren",
+      "userGuides": "Benutzerhandbücher",
+      "supportTicket": "Support-Ticket"
+    }
+  },
+  "header": {
+    "appName": "Athena LMS",
+    "search": "Suchen...",
+    "calendar": "Kalender",
+    "inbox": "Posteingang",
+    "notifications": "Benachrichtigungen",
+    "language": "Sprache",
+    "labourReform": "Arbeitsreform &",
+    "digitalLearningInitiative": "Digitale Lerninitiative",
+    "adminPortal": "Admin-Portal"
+  },
+  "supportTicket": {
+    "title": "Support-Ticket erstellen",
+    "subtitle": "Füllen Sie das untenstehende Formular aus, um ein Support-Ticket an unser Team zu senden.",
+    "cardTitle": "Neues Support-Ticket",
+    "form": {
+      "subject": "Betreff",
+      "subjectPlaceholder": "Beschreiben Sie Ihr Problem kurz",
+      "priority": "Priorität",
+      "priorityPlaceholder": "Priorität auswählen",
+      "category": "Kategorie",
+      "categoryPlaceholder": "Kategorie auswählen",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Bitte geben Sie detaillierte Informationen zu Ihrem Problem an",
+      "attachments": "Anhänge",
+      "addFiles": "Dateien hinzufügen",
+      "filesAttached": "Datei(en) angehängt",
+      "submitTicket": "Ticket absenden"
+    },
+    "priorities": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    },
+    "categories": {
+      "technical": "Technisches Problem",
+      "billing": "Abrechnung",
+      "account": "Konto",
+      "feature": "Funktionsanfrage",
+      "other": "Sonstiges"
+    }
+  },
+  "userGuides": {
+    "title": "Benutzerhandbücher & Dokumentation",
+    "subtitle": "Finden Sie hilfreiche Anleitungen, Tutorials und Dokumentation, um das Beste aus unserer Plattform herauszuholen.",
+    "viewGuide": "Anleitung anzeigen",
+    "lastUpdated": "Zuletzt aktualisiert:",
+    "cantFindHelp": "Können Sie nicht finden, wonach Sie suchen?",
+    "cantFindHelpDescription": "Unser Support-Team ist immer bereit, bei Fragen zu helfen.",
+    "contactSupportButton": "Support kontaktieren",
+    "categories": {
+      "allGuides": "Alle Anleitungen",
+      "gettingStarted": "Erste Schritte",
+      "features": "Funktionen",
+      "troubleshooting": "Fehlerbehebung"
+    },
+    "guides": {
+      "gettingStarted": {
+        "title": "Erste Schritte Anleitung",
+        "description": "Erfahren Sie, wie Sie Ihr Konto einrichten und mit unserer umfassenden Anleitung auf der Plattform navigieren.",
+        "type": "PDF",
+        "size": "2,4 MB"
+      },
+      "videoTutorials": {
+        "title": "Video-Tutorials",
+        "description": "Sehen Sie sich Schritt-für-Schritt-Video-Tutorials an, um alle Funktionen unserer Plattform zu meistern.",
+        "type": "Video-Serie",
+        "length": "45 Min."
+      },
+      "apiDocumentation": {
+        "title": "API-Dokumentation",
+        "description": "Technische Dokumentation zur Integration mit unserer API und Erstellung benutzerdefinierter Lösungen.",
+        "type": "Web"
+      },
+      "keyboardShortcuts": {
+        "title": "Tastaturkürzel",
+        "description": "Steigern Sie Ihre Produktivität mit diesen praktischen Tastaturkürzeln für häufige Aktionen.",
+        "type": "Spickzettel"
+      }
+    }
+  },
+  "contactSupport": {
+    "title": "Support kontaktieren",
+    "subtitle": "Wir sind hier um zu helfen! Wenden Sie sich an unser Support-Team für Unterstützung.",
+    "contactInformation": "Kontaktinformationen",
+    "emailUs": "E-Mail an uns",
+    "callUs": "Rufen Sie uns an",
+    "workingHours": "Arbeitszeiten",
+    "workingHoursTime": "Montag - Freitag: 9:00 - 18:00 Uhr",
+    "frequentlyAskedQuestions": "Häufig gestellte Fragen",
+    "sendMessage": "Senden Sie uns eine Nachricht",
+    "form": {
+      "fullName": "Vollständiger Name",
+      "fullNamePlaceholder": "Max Mustermann",
+      "email": "E-Mail",
+      "emailPlaceholder": "max@example.com",
+      "subject": "Betreff",
+      "subjectPlaceholder": "Worum geht es?",
+      "message": "Nachricht",
+      "messagePlaceholder": "Wie können wir Ihnen helfen?",
+      "sendButton": "Nachricht senden"
+    },
+    "quickFaqs": {
+      "resetPassword": {
+        "question": "Wie setze ich mein Passwort zurück?",
+        "answer": "Sie können Ihr Passwort zurücksetzen, indem Sie auf der Anmeldeseite auf \"Passwort vergessen\" klicken."
+      },
+      "updateProfile": {
+        "question": "Wie aktualisiere ich mein Profil?",
+        "answer": "Navigieren Sie zu Ihren Profileinstellungen, um Ihre persönlichen Informationen zu aktualisieren."
+      }
+    }
+  },
+  "faqs": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Finden Sie Antworten auf häufige Fragen zu unserer Plattform",
+    "categories": {
+      "general": "Allgemeine Fragen"
+    },
+    "questions": {
+      "resetPassword": {
+        "question": "Wie setze ich mein Passwort zurück?",
+        "answer": "Um Ihr Passwort zurückzusetzen, klicken Sie auf den Link \"Passwort vergessen\" auf der Anmeldeseite und befolgen Sie die Anweisungen, die an Ihre E-Mail gesendet werden."
+      },
+      "updateProfile": {
+        "question": "Wie aktualisiere ich meine Profilinformationen?",
+        "answer": "Sie können Ihre Profilinformationen aktualisieren, indem Sie auf Ihr Profilbild in der oberen rechten Ecke klicken und \"Profil bearbeiten\" auswählen."
+      },
+      "systemRequirements": {
+        "question": "Was sind die Systemanforderungen?",
+        "answer": "Unsere Plattform funktioniert am besten mit den neuesten Versionen von Chrome, Firefox, Safari und Edge. Stellen Sie sicher, dass JavaScript aktiviert ist."
+      },
+      "contactSupport": {
+        "question": "Wie kontaktiere ich den Support?",
+        "answer": "Sie können unser Support-Team über die Kontakt-Support-Seite oder per E-Mail an support@example.com kontaktieren"
+      },
+      "mobileApp": {
+        "question": "Gibt es eine mobile App?",
+        "answer": "Ja, unsere mobile App ist für iOS- und Android-Geräte verfügbar. Sie können sie im App Store oder Google Play Store herunterladen."
+      }
+    }
+  },
+  "admin": {
+    "nav": {
+      "overview": "Übersicht",
+      "analytics": "Analytik",
+      "courses": "Kurse",
+      "workshops": "Workshops",
+      "users": "Benutzer",
+      "compliance": "Compliance",
+      "support": "Support",
+      "reporting": "Berichterstattung"
+    },
+    "overview": {
+      "title": "Übersicht Zusammenfassung",
+      "subtitle": "Echtzeit-Programmanalysen und Lernenden-Einblicke",
+      "totalLearners": "Gesamtzahl der Lernenden",
+      "completionRate": "Abschlussrate",
+      "averageScore": "Durchschnittsnote",
+      "activeToday": "Heute aktiv",
+      "pathwayTracker": {
+        "title": "Vorhersagender Pfad-Tracker",
+        "subtitle": "Empfohlene vs tatsächliche Lernpfade",
+        "overallProgress": "Gesamtfortschritt",
+        "modules": {
+          "digitalLiteracy": "Digitale Kompetenz",
+          "labourRights": "Arbeitsrechte",
+          "communication": "Kommunikationsfähigkeiten",
+          "financial": "Finanzielle Bildung",
+          "workplace": "Arbeitssicherheit"
+        },
+        "pathways": {
+          "digitalFinancial": "Digitale Kompetenz → Finanzplanung",
+          "labourLegal": "Arbeitsrechte → Rechtliche Compliance",
+          "commLeadership": "Kommunikation → Führung",
+          "financialEntrepreneurship": "Finanzielle Bildung → Unternehmertum",
+          "workplaceRisk": "Arbeitssicherheit → Risikomanagement"
+        },
+        "statuses": {
+          "complete": "Abgeschlossen",
+          "inProgress": "In Bearbeitung",
+          "started": "Begonnen",
+          "justStarted": "Gerade begonnen"
+        },
+        "learners": "Lernende",
+        "match": "Übereinstimmung",
+        "completedPathways": "Abgeschlossene Pfade",
+        "notStarted": "Nicht begonnen"
+      },
+      "learnerStatus": {
+        "title": "Lernenden-Status",
+        "active": "Aktiv",
+        "completed": "Abgeschlossen",
+        "atRisk": "Gefährdet",
+        "inactive": "Inaktiv"
+      },
+      "topPerformers": {
+        "title": "Top-Performer"
+      },
+      "announce": "Ankündigen",
+      "export": "Exportieren",
+      "exportCSV": "Als CSV exportieren",
+      "exportPDF": "Als PDF exportieren",
+      "exportSuccess": "Bericht erfolgreich exportiert!",
+      "pdfExportInfo": "PDF-Exportfunktion - Integration mit jsPDF-Bibliothek",
+      "publishAnnouncement": "Ankündigung veröffentlichen",
+      "announcementMessage": "Nachricht",
+      "announcementPlaceholder": "Geben Sie Ihre Ankündigung ein...",
+      "priority": "Priorität",
+      "priorityLow": "Niedrig",
+      "priorityNormal": "Normal",
+      "priorityHigh": "Hoch",
+      "priorityUrgent": "Dringend",
+      "recipients": "Empfänger",
+      "allUsers": "Alle",
+      "users": "Benutzer",
+      "publish": "Jetzt veröffentlichen",
+      "cancel": "Abbrechen",
+      "announcementEmpty": "Bitte geben Sie einen Ankündigungstext ein",
+      "announcementPublished": "Ankündigung an alle Benutzer veröffentlicht",
+      "learnerProgress": {
+        "title": "Lernenden-Fortschritts-Tracker",
+        "subtitle": "Individueller Fortschritt und Abschlussstatus",
+        "searchPlaceholder": "Lernende suchen...",
+        "allStatus": "Alle Status",
+        "learner": "Lernender",
+        "progress": "Fortschritt",
+        "currentModule": "Aktuelles Modul",
+        "score": "Punktzahl",
+        "status": "Status",
+        "done": "erledigt",
+        "active": "aktiv",
+        "pending": "ausstehend",
+        "noLearnersFound": "Keine Lernenden gefunden",
+        "showing": "Zeige {{count}} von {{total}} Lernenden",
+        "completedText": "Abgeschlossen",
+        "hoursAgo": "vor {{count}} Stunden",
+        "hourAgo": "vor 1 Stunde",
+        "daysAgo": "vor {{count}} Tagen",
+        "dayAgo": "vor 1 Tag",
+        "modules": {
+          "financialPlanning": "Finanzplanung",
+          "labourRights": "Arbeitsrechte",
+          "communicationSkills": "Kommunikationsfähigkeiten",
+          "financialLiteracy": "Finanzielle Bildung",
+          "riskManagement": "Risikomanagement",
+          "basicComputerSkills": "Grundlegende Computerkenntnisse",
+          "digitalMarketing": "Digitales Marketing",
+          "advancedSafetyProtocols": "Erweiterte Sicherheitsprotokolle",
+          "labourCodeBasics": "Grundlagen des Arbeitsrechts",
+          "teamCollaboration": "Teamzusammenarbeit"
+        },
+        "learners": {
+          "learner1": "Anna Schmidt",
+          "learner2": "Hans Müller",
+          "learner3": "Sophie Weber",
+          "learner4": "Klaus Fischer",
+          "learner5": "Maria Wagner",
+          "learner6": "Peter Becker",
+          "learner7": "Laura Hoffmann",
+          "learner8": "Michael Schulz",
+          "learner9": "Emma Koch",
+          "learner10": "Thomas Bauer",
+          "learner11": "Lena Meyer",
+          "learner12": "Felix Richter",
+          "learner13": "Sarah Schneider",
+          "learner14": "Markus Wolf",
+          "learner15": "Julia Zimmermann"
+        }
+      }
+    },
+    "moduleAnalytics": {
+      "title": "Modul- & Bewertungsanalyse",
+      "subtitle": "Klicken Sie auf ein Modul, um detaillierte Analysen anzuzeigen",
+      "modulePerformance": {
+        "title": "Modulleistung",
+        "subtitle": "Klicken Sie auf eine Modulkarte, um detaillierte Analysen anzuzeigen",
+        "learners": "Lernende",
+        "done": "erledigt",
+        "active": "aktiv",
+        "pending": "ausstehend"
+      },
+      "modules": {
+        "digitalLiteracy": "Grundlagen der digitalen Kompetenz",
+        "financialPlanning": "Finanzplanung",
+        "labourRights": "Arbeitsrechte & Compliance",
+        "communicationSkills": "Kommunikationsfähigkeiten",
+        "workplaceSafety": "Arbeitssicherheit",
+        "entrepreneurship": "Grundlagen des Unternehmertums"
+      },
+      "modal": {
+        "enrolled": "eingeschrieben",
+        "tests": "Tests",
+        "done": "Erledigt",
+        "active": "Aktiv",
+        "pending": "Ausstehend",
+        "passRate": "Bestehensquote",
+        "completion": "Abschluss",
+        "avgScore": "Durchschnittsnote",
+        "averageTime": "Durchschnittliche Zeit",
+        "statusSplit": "Status-Aufteilung",
+        "total": "Gesamt",
+        "scoreRange": "Punktebereich",
+        "top": "Top",
+        "avg": "Durchschn.",
+        "low": "Niedrig"
+      },
+      "assessmentPerformance": {
+        "title": "Bewertungsleistung",
+        "subtitle": "Quiz-Bestehensraten und Schwierigkeitsanalyse",
+        "allDifficulty": "Alle Schwierigkeiten",
+        "passRate": "Bestehensquote",
+        "avgScore": "Durchschnittsnote",
+        "totalAttempts": "Gesamtversuche",
+        "passed": "bestanden",
+        "failed": "nicht bestanden"
+      },
+      "assessments": {
+        "digitalLiteracyQuiz": "Quiz zur digitalen Kompetenz",
+        "financialPlanningAssessment": "Finanzplanungsbewertung",
+        "labourLawExam": "Arbeitsrechtsprüfung",
+        "communicationSkillsQuiz": "Quiz zu Kommunikationsfähigkeiten",
+        "safetyProtocolAssessment": "Sicherheitsprotokollbewertung"
+      },
+      "assessmentTypes": {
+        "quiz": "Quiz",
+        "assessment": "Bewertung",
+        "exam": "Prüfung"
+      },
+      "difficulty": {
+        "easy": "Einfach",
+        "medium": "Mittel",
+        "hard": "Schwer"
+      }
+    },
+    "engagement": {
+      "title": "Engagement & Gamification",
+      "subtitle": "Überwachen Sie Engagement und Erfolge",
+      "kpis": {
+        "activeLearnersToday": "Heute aktive Lernende",
+        "avgTimeSpent": "Durchschn. verbrachte Zeit",
+        "totalBadges": "Gesamte Abzeichen",
+        "avgPoints": "Durchschn. Punkte"
+      },
+      "contentInteraction": {
+        "title": "Inhaltsinteraktions-Übersicht",
+        "thisWeek": "Diese Woche",
+        "thisMonth": "Dieser Monat",
+        "thisQuarter": "Dieses Quartal",
+        "days": {
+          "mon": "Mo",
+          "tue": "Di",
+          "wed": "Mi",
+          "thu": "Do",
+          "fri": "Fr",
+          "sat": "Sa",
+          "sun": "So"
+        },
+        "types": {
+          "videos": "Videos",
+          "immersive": "Immersiv",
+          "gamified": "Spielerisch",
+          "resources": "Ressourcen"
+        }
+      },
+      "leaderboard": {
+        "title": "Bestenliste & Belohnungen",
+        "rank": "Rang",
+        "name": "Name",
+        "points": "Punkte",
+        "badges": "Abzeichen",
+        "pathway": "Pfad",
+        "pathways": {
+          "advanced": "Fortgeschritten",
+          "intermediate": "Mittelstufe",
+          "basic": "Grundstufe"
+        }
+      },
+      "engagementMetrics": {
+        "title": "Engagement nach Lernpfad",
+        "currentPeriod": "Aktueller Zeitraum",
+        "previousPeriod": "Vorheriger Zeitraum",
+        "metrics": {
+          "videoCompletion": "Video-Abschluss",
+          "quizPerformance": "Quiz-Leistung",
+          "discussion": "Diskussion",
+          "assignments": "Aufgaben",
+          "peerReview": "Peer-Review"
+        }
+      },
+      "badgeDistribution": {
+        "title": "Abzeichen-Verteilung",
+        "levels": {
+          "beginner": "Anfänger",
+          "intermediate": "Mittelstufe",
+          "advanced": "Fortgeschritten",
+          "expert": "Experte"
+        }
+      },
+      "weeklyProgress": {
+        "title": "Wöchentliche Fortschrittsübersicht",
+        "week1": "Woche 1",
+        "week2": "Woche 2",
+        "week3": "Woche 3",
+        "week4": "Woche 4",
+        "completion": "Abschluss"
+      },
+      "topEngaged": {
+        "title": "Top 3 engagierte Lernende",
+        "badgesEarned": "{{count}} Abzeichen diese Woche verdient"
+      },
+      "lowEngagement": {
+        "title": "Niedrige Engagement-Warnungen",
+        "inactive7Days": "{{count}} Benutzer seit 7+ Tagen inaktiv",
+        "incompleteModules": "{{count}} Benutzer mit unvollständigen Modulen",
+        "lowQuizCompletion": "Niedrige Quiz-Abschlussrate",
+        "recommendations": {
+          "sendReminder": "Empfohlen: Erinnerungsbenachrichtigung senden",
+          "scheduleFollowup": "Empfohlen: Follow-up planen",
+          "reviewDifficulty": "Erwägen Sie eine Überprüfung des Schwierigkeitsgrads"
+        }
+      },
+      "learners": {
+        "learner1": "Hans Müller",
+        "learner2": "Anna Schmidt",
+        "learner3": "Sophie Weber"
+      }
+    },
+    "stakeholder": {
+      "title": "Stakeholder-Ressourcen",
+      "subtitle": "Überwachen Sie Ressourcennutzung und Stakeholder-Engagement",
+      "kpis": {
+        "totalStakeholders": "Gesamte Stakeholder",
+        "activeUsers": "Aktive Benutzer",
+        "avgCompletion": "Durchschn. Abschluss",
+        "totalDownloads": "Gesamte Downloads"
+      },
+      "performanceByType": {
+        "title": "Leistung nach Stakeholder-Typ",
+        "tabs": {
+          "employer": "Arbeitgeber",
+          "educator": "Pädagoge",
+          "learner": "Lernender"
+        },
+        "groups": {
+          "groupA": "Gruppe A",
+          "groupB": "Gruppe B",
+          "groupC": "Gruppe C"
+        },
+        "chartLabels": {
+          "completion": "Abschluss %",
+          "avgScore": "Durchschn. Punktzahl",
+          "engagement": "Engagement"
+        }
+      },
+      "engagementMetrics": {
+        "resourceAccess": "Ressourcenzugriff",
+        "completionRate": "Abschlussrate",
+        "interaction": "Interaktion",
+        "feedback": "Feedback",
+        "sharing": "Teilen",
+        "engagement": "Engagement"
+      },
+      "resourceType": {
+        "title": "Ressourcentyp-Verteilung",
+        "types": {
+          "pdfs": "PDFs",
+          "videos": "Videos",
+          "interactive": "Interaktiv",
+          "documents": "Dokumente",
+          "other": "Sonstige"
+        }
+      },
+      "resourceTrends": {
+        "title": "Ressourcennutzungstrends",
+        "months": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "Mär",
+          "apr": "Apr",
+          "may": "Mai"
+        },
+        "labels": {
+          "downloads": "Downloads",
+          "views": "Aufrufe",
+          "shares": "Freigaben"
+        }
+      },
+      "resourceTable": {
+        "title": "Ressourcen-Downloads und -Nutzung",
+        "headers": {
+          "resourceName": "Ressourcenname",
+          "type": "Typ",
+          "downloads": "Downloads",
+          "lastAccess": "Letzter Zugriff",
+          "usedByPathway": "Verwendet von Pfad"
+        },
+        "resources": {
+          "digitalSafetyToolkit": "Digitales Sicherheits-Toolkit",
+          "workplaceRightsGuide": "Leitfaden zu Arbeitsplatzrechten",
+          "safetyTrainingVideo": "Sicherheitsschulungsvideo",
+          "employeeHandbook": "Mitarbeiterhandbuch",
+          "leadershipTraining": "Führungstraining",
+          "communicationSkills": "Kommunikationsfähigkeiten",
+          "projectManagementGuide": "Projektmanagement-Leitfaden",
+          "teamBuildingWorkshop": "Teambuilding-Workshop"
+        },
+        "types": {
+          "pdf": "PDF",
+          "document": "Dokument",
+          "video": "Video",
+          "interactive": "Interaktiv"
+        },
+        "pathways": {
+          "allPathways": "Alle Pfade",
+          "basic": "Grundstufe",
+          "intermediate": "Mittelstufe",
+          "advanced": "Fortgeschritten",
+          "basicAdvanced": "Grundstufe, Fortgeschritten"
+        }
+      },
+      "insights": {
+        "topResource": {
+          "title": "Top-Ressource",
+          "downloadsThisMonth": "{{count}} Downloads diesen Monat"
+        },
+        "employerEngagement": {
+          "title": "Arbeitgeber-Engagement",
+          "increase": "{{percent}}% Zunahme",
+          "inResourceAccess": "beim Ressourcenzugriff"
+        },
+        "immersiveLearning": {
+          "title": "Immersives Lernen",
+          "moreDownloads": "{{multiplier}}× Mehr",
+          "byImmersiveLearners": "PDF-Downloads durch immersive Lernende"
+        }
+      },
+      "resourceCorrelation": {
+        "title": "Ressourcennutzung vs. Abschluss",
+        "xAxisLabel": "Downloads",
+        "yAxisLabel": "Abschluss %",
+        "legendLabel": "Ressourcen",
+        "tooltipLabels": {
+          "downloads": "Downloads",
+          "completion": "Abschluss",
+          "type": "Typ"
+        }
+      },
+      "resourceAlerts": {
+        "title": "Ressourcen-Warnungen",
+        "lowUsageEducators": "Geringe Ressourcennutzung bei Pädagogen",
+        "belowAverage": "{{percent}}% unter durchschnittlichem Engagement",
+        "outdatedResources": "Veraltete Sicherheitsressourcen",
+        "lastUpdated": "Zuletzt aktualisiert vor 6+ Monaten",
+        "formatPreference": "Ressourcenformat-Präferenz",
+        "videoHigherEngagement": "Videoinhalte haben {{multiplier}}× höheres Engagement"
+      }
+    },
+    "courses": {
+      "title": "Kurs- & Modulverwaltung",
+      "subtitle": "Lernmodule erstellen, bearbeiten und verwalten",
+      "createNew": "Neuen Kurs erstellen",
+      "totalCourses": "Kurse Gesamt",
+      "published": "Veröffentlicht",
+      "totalEnrolled": "Gesamt Eingeschrieben",
+      "completionRate": "Abschlussrate",
+      "searchPlaceholder": "Kurse suchen...",
+      "allDepartments": "Alle Abteilungen",
+      "allStatus": "Alle Status",
+      "noCourses": "Keine Kurse gefunden",
+      "courseTitle": "Kurstitel",
+      "description": "Beschreibung",
+      "department": "Abteilung",
+      "skillLevel": "Fähigkeitsstufe",
+      "duration": "Dauer",
+      "modules": "Anzahl der Module",
+      "status": "Status",
+      "createCourse": "Neuen Kurs erstellen",
+      "editCourse": "Kurs bearbeiten",
+      "viewCourse": "Kurs ansehen",
+      "create": "Erstellen",
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "fillRequired": "Bitte füllen Sie alle erforderlichen Felder aus",
+      "created": "Kurs erfolgreich erstellt!",
+      "updated": "Kurs erfolgreich aktualisiert!",
+      "deleted": "Kurs erfolgreich gelöscht!",
+      "duplicated": "Kurs erfolgreich dupliziert!",
+      "confirmDelete": "Möchten Sie diesen Kurs wirklich löschen?"
+    },
+    "workshops": {
+      "title": "Workshop- & Veranstaltungsverwaltung",
+      "subtitle": "Workshops, Webinare und Simulationen planen und verwalten",
+      "scheduleNew": "Neue Veranstaltung planen",
+      "totalEvents": "Veranstaltungen Gesamt",
+      "totalRegistrations": "Anmeldungen Gesamt",
+      "totalAttendance": "Teilnahme Gesamt",
+      "avgAttendance": "Durchschn. Teilnahmequote",
+      "searchPlaceholder": "Veranstaltungen suchen...",
+      "allTypes": "Alle Typen",
+      "allStatus": "Alle Status",
+      "noEvents": "Keine Veranstaltungen gefunden",
+      "eventTitle": "Veranstaltungstitel",
+      "description": "Beschreibung",
+      "type": "Veranstaltungstyp",
+      "platform": "Plattform",
+      "date": "Datum",
+      "time": "Uhrzeit",
+      "timezone": "Zeitzone",
+      "duration": "Dauer",
+      "maxParticipants": "Max. Teilnehmer",
+      "instructor": "Dozent",
+      "createEvent": "Neue Veranstaltung planen",
+      "editEvent": "Veranstaltung bearbeiten",
+      "viewEvent": "Veranstaltungsdetails",
+      "create": "Erstellen",
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen",
+      "fillRequired": "Bitte füllen Sie alle erforderlichen Felder aus",
+      "created": "Workshop erfolgreich erstellt!",
+      "updated": "Workshop erfolgreich aktualisiert!",
+      "deleted": "Workshop erfolgreich gelöscht!",
+      "confirmDelete": "Möchten Sie diesen Workshop wirklich löschen?"
+    },
+    "users": {
+      "title": "Benutzer- & Rollenverwaltung",
+      "subtitle": "Benutzer, Rollen und Zugriffsrechte verwalten",
+      "addNew": "Neuen Benutzer hinzufügen",
+      "totalUsers": "Benutzer Gesamt",
+      "activeUsers": "Aktive Benutzer",
+      "administrators": "Administratoren",
+      "newThisMonth": "Neu in diesem Monat",
+      "searchPlaceholder": "Benutzer suchen...",
+      "allRoles": "Alle Rollen",
+      "allStatus": "Alle Status",
+      "noUsers": "Keine Benutzer gefunden",
+      "fullName": "Vollständiger Name",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "role": "Rolle",
+      "department": "Abteilung",
+      "status": "Status",
+      "createUser": "Neuen Benutzer hinzufügen",
+      "editUser": "Benutzer bearbeiten",
+      "viewUser": "Benutzerdetails",
+      "create": "Erstellen",
+      "save": "Änderungen speichern",
+      "cancel": "Abbrechen",
+      "close": "Schließen",
+      "fillRequired": "Bitte füllen Sie alle erforderlichen Felder aus",
+      "created": "Benutzer erfolgreich erstellt!",
+      "updated": "Benutzer erfolgreich aktualisiert!",
+      "deleted": "Benutzer erfolgreich gelöscht!",
+      "statusUpdated": "Benutzerstatus aktualisiert",
+      "confirmDelete": "Möchten Sie diesen Benutzer wirklich löschen?"
+    },
+    "compliance": {
+      "title": "Compliance & Sicherheitsprüfung",
+      "subtitle": "Compliance-Status, Prüfprotokolle und Sicherheitsereignisse überwachen",
+      "exportLog": "Prüfprotokoll exportieren"
+    },
+    "support": {
+      "title": "Support-Center",
+      "subtitle": "Support-Tickets, FAQs und Benutzeranfragen verwalten"
+    },
+    "timeline": {
+      "title": "Zeitplan & Berichterstattung",
+      "subtitle": "Überwachen Sie Warnungen, Meilensteine und erstellen Sie umfassende Berichte",
+      "kpis": {
+        "activeAlerts": "Aktive Warnungen",
+        "atRiskLearners": "Gefährdete Lernende",
+        "upcomingMilestones": "Bevorstehende Meilensteine",
+        "completedMilestones": "Abgeschlossene Meilensteine"
+      },
+      "alerts": {
+        "title": "Warnungen & Benachrichtigungen",
+        "subtitle": "Kritische Warnungen und wichtige Benachrichtigungen, die Aufmerksamkeit erfordern",
+        "affectedLearners": "betroffene Lernende",
+        "noAlerts": "Keine Warnungen anzuzeigen",
+        "filters": {
+          "all": "Alle Warnungen",
+          "critical": "Kritisch",
+          "warning": "Warnung",
+          "info": "Info"
+        },
+        "items": {
+          "lowEngagement": "Warnung zu geringem Engagement",
+          "lowEngagementDesc": "5 Lernende haben sich seit mehr als 7 Tagen nicht angemeldet. Sofortige Intervention empfohlen.",
+          "moduleDropout": "Risiko des Modulabbruchs",
+          "moduleDropoutDesc": "3 Lernende haben das Modul 'Finanzplanung' ohne Abschluss abgebrochen. Nachverfolgung erforderlich.",
+          "assessmentDue": "Bewertungen bald fällig",
+          "assessmentDueDesc": "8 Lernende haben ausstehende Bewertungen, die innerhalb von 48 Stunden fällig sind.",
+          "lowQuizScores": "Niedrige Quiz-Ergebnisse",
+          "lowQuizScoresDesc": "4 Lernende haben im jüngsten Quiz weniger als 60% erreicht. Zusätzliche Unterstützung erforderlich.",
+          "courseCompletion": "Kursabschluss",
+          "courseCompletionDesc": "3 Lernende haben den Kurs 'Digitale Kompetenz' erfolgreich abgeschlossen.",
+          "newModuleRelease": "Neue Modulveröffentlichung",
+          "newModuleReleaseDesc": "Das Modul 'Arbeitssicherheit' wurde veröffentlicht und ist jetzt für alle Lernenden verfügbar."
+        }
+      },
+      "alertModal": {
+        "description": "Beschreibung",
+        "affectedLearners": "Betroffene Lernende",
+        "recommendedActions": "Empfohlene Maßnahmen",
+        "action1": "Personalisierte Erinnerungs-E-Mails an betroffene Lernende senden",
+        "action2": "Einzelne Nachbesprechungen planen",
+        "action3": "Inhaltsschwierigkeit überprüfen und bei Bedarf anpassen",
+        "takeAction": "Maßnahme ergreifen",
+        "dismiss": "Verwerfen"
+      },
+      "milestones": {
+        "title": "Zeitplan & Meilenstein-Tracker",
+        "subtitle": "Verfolgen Sie Kampagnen-Rollouts und Modulveröffentlichungspläne",
+        "startDate": "Startdatum",
+        "endDate": "Enddatum",
+        "owner": "Verantwortlicher",
+        "statuses": {
+          "completed": "Abgeschlossen",
+          "inProgress": "In Bearbeitung",
+          "upcoming": "Bevorstehend",
+          "delayed": "Verzögert"
+        },
+        "items": {
+          "digitalLiteracyLaunch": "Start des Moduls Digitale Kompetenz",
+          "labourRightsModule": "Rollout des Moduls Arbeitsrechte",
+          "communicationSkills": "Kommunikationsfähigkeiten-Training",
+          "financialPlanning": "Finanzplanungskurs",
+          "workplaceSafety": "Arbeitssicherheitskampagne",
+          "entrepreneurship": "Start des Unternehmertum-Programms"
+        }
+      },
+      "export": {
+        "title": "Benutzerdefinierter Berichtsexport",
+        "subtitle": "Erstellen und herunterladen Sie umfassende Programmberichte",
+        "selectFormat": "Format auswählen",
+        "formats": {
+          "pdf": "PDF",
+          "excel": "Excel",
+          "csv": "CSV"
+        },
+        "reportTypes": {
+          "programOverview": "Programmübersichtsbericht",
+          "learnerProgress": "Lernfortschrittsbericht",
+          "moduleAnalytics": "Modulanalysebericht",
+          "engagementMetrics": "Engagement-Metrikenbericht",
+          "alertsSummary": "Warnungszusammenfassung",
+          "milestonesReport": "Meilensteine & Zeitplan-Bericht"
+        },
+        "reportDescriptions": {
+          "programOverview": "Umfassender Überblick über Programm-KPIs und Leistungsmetriken",
+          "learnerProgress": "Detaillierte Fortschrittsverfolgung für alle Lernenden über Module hinweg",
+          "moduleAnalytics": "Eingehende Analyse von Modulabschluss und Bewertungsergebnissen",
+          "engagementMetrics": "Engagement-Statistiken, Gamification und Aktivitätstrends",
+          "alertsSummary": "Zusammenfassung aller kritischen Warnungen und Benachrichtigungen",
+          "milestonesReport": "Zeitplanverfolgung mit Meilenstein-Abschlussstatus"
+        },
+        "exportingMessage": "Exportiere {{report}} als {{format}}...",
+        "exportAll": "Alle Berichte exportieren"
+      },
+      "charts": {
+        "alertTrends": "Warnungstrends im Zeitverlauf",
+        "alertTrendsDesc": "Verfolgen Sie Häufigkeit und Schweregrad von Warnungen",
+        "engagementTrends": "Trends des Lernenden-Engagements",
+        "engagementTrendsDesc": "Überwachen Sie Aktivität und Risikoniveaus der Lernenden",
+        "alertDistribution": "Warnungsverteilung",
+        "milestoneStatus": "Meilenstein-Status",
+        "riskAnalysis": "Risikoanalyse",
+        "currentPeriod": "Aktueller Zeitraum",
+        "totalMilestones": "{{count}} Meilensteine Gesamt",
+        "currentVsTarget": "Aktuell vs Ziel",
+        "current": "Aktuell",
+        "target": "Ziel",
+        "active": "Aktiv",
+        "atRisk": "Gefährdet",
+        "inactive": "Inaktiv",
+        "week1": "Woche 1",
+        "week2": "Woche 2",
+        "week3": "Woche 3",
+        "week4": "Woche 4",
+        "months": {
+          "jan": "Jan",
+          "feb": "Feb",
+          "mar": "Mär",
+          "apr": "Apr"
+        },
+        "riskCategories": {
+          "engagement": "Engagement",
+          "completion": "Abschluss",
+          "assessment": "Bewertung",
+          "attendance": "Anwesenheit",
+          "participation": "Teilnahme"
+        }
+      }
+    }
+  },
+  "common": {
+    "welcome": "Willkommen",
+    "loading": "Wird geladen...",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "close": "Schließen",
+    "submit": "Absenden",
+    "search": "Suchen",
+    "viewAll": "Alle anzeigen",
+    "viewMore": "Mehr anzeigen",
+    "seeMore": "Mehr sehen",
+    "back": "Zurück",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "apply": "Anwenden",
+    "reset": "Zurücksetzen"
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "resources": {
+    "pageTitle": "Centre de Ressources et de Connaissances",
+    "subtitle": "Explorez les connaissances liées aux réformes, les guides d'apprentissage numérique et les connaissances politiques — tout en un seul endroit.",
+    "searchPlaceholder": "Rechercher des ressources, des rapports ou des FAQ…",
+    "filters": {
+      "policy": "Politique",
+      "training": "Formation",
+      "employerGuides": "Guides pour Employeurs",
+      "educatorResources": "Ressources pour Éducateurs",
+      "caseStudies": "Études de Cas",
+      "gizReports": "Rapports GIZ"
+    },
+    "featured": {
+      "title": "En vedette cette semaine",
+      "recommended": "Recommandé par GIZ",
+      "readMore": "Lire la suite",
+      "watchNow": "Regarder maintenant"
+    },
+    "card": {
+      "view": "Voir",
+      "open": "Ouvrir",
+      "download": "Télécharger",
+      "bookmark": "Marquer",
+      "fileSize": "Taille du fichier",
+      "published": "Publié"
+    },
+    "languages": {
+      "en": "Anglais",
+      "hi": "Hindi",
+      "de": "Allemand",
+      "es": "Espagnol",
+      "fr": "Français"
+    },
+    "noResults": "Aucune ressource trouvée",
+    "loading": "Chargement des ressources..."
+  },
+  "learning": {
+    "achievements": {
+      "title": "Badges et Certificats",
+      "viewAll": "Voir Tout",
+      "earned": "Obtenu",
+      "certificate": "Certificat",
+      "locked": "Verrouillé",
+      "progress": "Progrès des Réalisations",
+      "unlocked": "Déverrouillé",
+      "badges": {
+        "digitalMaster": "Maître Numérique",
+        "quickLearner": "Apprenant Rapide",
+        "nextLevel": "Niveau Suivant"
+      },
+      "certificates": {
+        "labourRights": "Droits du Travail"
+      }
+    }
+  },
+  "admin": {
+    "timeline": {
+      "title": "Chronologie et Rapports",
+      "subtitle": "Surveillez les alertes, les jalons et générez des rapports complets",
+      "kpis": {
+        "activeAlerts": "Alertes Actives",
+        "atRiskLearners": "Apprenants à Risque",
+        "upcomingMilestones": "Jalons à Venir",
+        "completedMilestones": "Jalons Complétés"
+      },
+      "alerts": {
+        "title": "Alertes et Notifications",
+        "subtitle": "Alertes critiques et notifications importantes nécessitant une attention",
+        "affectedLearners": "apprenants affectés",
+        "noAlerts": "Aucune alerte à afficher",
+        "filters": {
+          "all": "Toutes les Alertes",
+          "critical": "Critique",
+          "warning": "Avertissement",
+          "info": "Info"
+        },
+        "items": {
+          "lowEngagement": "Alerte d'Engagement Faible",
+          "lowEngagementDesc": "5 apprenants ne se sont pas connectés depuis plus de 7 jours. Intervention immédiate recommandée.",
+          "moduleDropout": "Risque d'Abandon de Module",
+          "moduleDropoutDesc": "3 apprenants ont abandonné le module 'Planification Financière' sans le terminer. Suivi requis.",
+          "assessmentDue": "Évaluations à Venir",
+          "assessmentDueDesc": "8 apprenants ont des évaluations en attente dues dans les 48 heures.",
+          "lowQuizScores": "Scores de Quiz Faibles",
+          "lowQuizScoresDesc": "4 apprenants ont obtenu moins de 60% au quiz récent. Soutien supplémentaire nécessaire.",
+          "courseCompletion": "Achèvement du Cours",
+          "courseCompletionDesc": "3 apprenants ont terminé avec succès le cours 'Littératie Numérique'.",
+          "newModuleRelease": "Nouvelle Version de Module",
+          "newModuleReleaseDesc": "Le module 'Sécurité au Travail' a été publié et est maintenant disponible pour tous les apprenants."
+        }
+      },
+      "alertModal": {
+        "description": "Description",
+        "affectedLearners": "Apprenants Affectés",
+        "recommendedActions": "Actions Recommandées",
+        "action1": "Envoyer des e-mails de rappel personnalisés aux apprenants affectés",
+        "action2": "Planifier des sessions de suivi individuelles",
+        "action3": "Examiner la difficulté du contenu et ajuster si nécessaire",
+        "takeAction": "Prendre des Mesures",
+        "dismiss": "Ignorer"
+      },
+      "milestones": {
+        "title": "Suivi de la Chronologie et des Jalons",
+        "subtitle": "Suivez le déploiement de la campagne et les calendriers de publication des modules",
+        "startDate": "Date de Début",
+        "endDate": "Date de Fin",
+        "owner": "Responsable",
+        "statuses": {
+          "completed": "Complété",
+          "inProgress": "En Cours",
+          "upcoming": "À Venir",
+          "delayed": "Retardé"
+        },
+        "items": {
+          "digitalLiteracyLaunch": "Lancement du Module de Littératie Numérique",
+          "labourRightsModule": "Déploiement du Module des Droits du Travail",
+          "communicationSkills": "Formation aux Compétences en Communication",
+          "financialPlanning": "Cours de Planification Financière",
+          "workplaceSafety": "Campagne de Sécurité au Travail",
+          "entrepreneurship": "Lancement du Programme d'Entrepreneuriat"
+        }
+      },
+      "export": {
+        "title": "Export de Rapports Personnalisés",
+        "subtitle": "Générez et téléchargez des rapports de programme complets",
+        "selectFormat": "Sélectionner le Format",
+        "formats": {
+          "pdf": "PDF",
+          "excel": "Excel",
+          "csv": "CSV"
+        },
+        "reportTypes": {
+          "programOverview": "Rapport d'Aperçu du Programme",
+          "learnerProgress": "Rapport de Progression des Apprenants",
+          "moduleAnalytics": "Rapport d'Analyse des Modules",
+          "engagementMetrics": "Rapport des Métriques d'Engagement",
+          "alertsSummary": "Résumé des Alertes",
+          "milestonesReport": "Rapport des Jalons et de la Chronologie"
+        },
+        "reportDescriptions": {
+          "programOverview": "Aperçu complet des KPI du programme et des métriques de performance",
+          "learnerProgress": "Suivi détaillé des progrès de tous les apprenants à travers les modules",
+          "moduleAnalytics": "Analyse approfondie de l'achèvement des modules et des scores d'évaluation",
+          "engagementMetrics": "Statistiques d'engagement, gamification et tendances d'activité",
+          "alertsSummary": "Résumé de toutes les alertes critiques et notifications",
+          "milestonesReport": "Suivi de la chronologie avec l'état d'achèvement des jalons"
+        },
+        "exportingMessage": "Export de {{report}} en {{format}}...",
+        "exportAll": "Exporter Tous les Rapports"
+      },
+      "charts": {
+        "alertTrends": "Tendances des Alertes au Fil du Temps",
+        "alertTrendsDesc": "Suivez la fréquence et les changements de gravité des alertes",
+        "engagementTrends": "Tendances d'Engagement des Apprenants",
+        "engagementTrendsDesc": "Surveillez l'activité des apprenants et les niveaux de risque",
+        "alertDistribution": "Distribution des Alertes",
+        "milestoneStatus": "Statut des Jalons",
+        "riskAnalysis": "Analyse des Risques",
+        "currentPeriod": "Période Actuelle",
+        "totalMilestones": "{{count}} Jalons au Total",
+        "currentVsTarget": "Actuel vs Cible",
+        "current": "Actuel",
+        "target": "Cible",
+        "active": "Actif",
+        "atRisk": "À Risque",
+        "inactive": "Inactif",
+        "week1": "Semaine 1",
+        "week2": "Semaine 2",
+        "week3": "Semaine 3",
+        "week4": "Semaine 4",
+        "months": {
+          "jan": "Jan",
+          "feb": "Fév",
+          "mar": "Mar",
+          "apr": "Avr"
+        },
+        "riskCategories": {
+          "engagement": "Engagement",
+          "completion": "Achèvement",
+          "assessment": "Évaluation",
+          "attendance": "Présence",
+          "participation": "Participation"
+        }
+      }
+    }
+  }
+}
+
