@@ -1,0 +1,47 @@
+{
+  "resources": {
+    "languages": {
+      "et": "Eesti",
+      "uk": "Ukraina",
+      "ru": "Vene",
+      "en": "Inglise",
+      "ar": "Araabia",
+      "de": "Saksa",
+      "es": "Hispaania"
+    }
+  },
+  "navigation": {
+    "home": "Kodu",
+    "courses": "Kursused",
+    "groups": "Grupid",
+    "catalog": "Kataloog",
+    "resources": "Ressursid ja Teadmusbaas",
+    "messages": "Sõnumid",
+    "help": "Abi ja Tugi",
+    "profile": "Profiil",
+    "settings": "Seaded",
+    "logout": "Logi välja",
+    "helpMenu": {
+      "faqs": "KKK",
+      "contactSupport": "Võta ühendust toega",
+      "userGuides": "Kasutusjuhendid",
+      "supportTicket": "Toetuspilet"
+    }
+  },
+  "header": {
+    "appName": "Athena LMS",
+    "search": "Otsi...",
+    "calendar": "Kalender",
+    "inbox": "Postkast",
+    "notifications": "Teavitused",
+    "language": "Keel",
+    "labourReform": "Tööreform &",
+    "digitalLearningInitiative": "Digitaalne õppealgatus",
+    "adminPortal": "Admini portaal"
+  },
+  "dashboard": {
+    "loadingDashboard": "Laen Integratsiooni Sihtasutuse juhtpaneeli..."
+  }
+}
+
+

@@ -4,8 +4,11 @@ import en from './locales/en.json';
 import ar from './locales/ar.json';
 import de from './locales/de.json';
 import es from './locales/es.json';
+import et from './locales/et.json';
+import uk from './locales/uk.json';
+import ru from './locales/ru.json';
 
-// Initialize i18next with English, Arabic, German, and Spanish support
+// Initialize i18next with supported languages
 i18n
   .use(initReactI18next)
   .init({
@@ -13,9 +16,12 @@ i18n
       en: { translation: en },
       ar: { translation: ar },
       de: { translation: de },
-      es: { translation: es }
+      es: { translation: es },
+      et: { translation: et },
+      uk: { translation: uk },
+      ru: { translation: ru }
     },
-    lng: localStorage.getItem('appLanguage') || 'en', // default language from localStorage or English
+    lng: localStorage.getItem('appLanguage') || 'et', // default language from localStorage or Estonian
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false

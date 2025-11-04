@@ -14,6 +14,9 @@ const DreamsUnderstanding = () => {
 
   // Language options
   const languageOptions = [
+    { code: 'et', label: 'Eesti', flag: '🇪🇪' },
+    { code: 'uk', label: 'Українська', flag: '🇺🇦' },
+    { code: 'ru', label: 'Русский', flag: '🇷🇺' },
     { code: 'en', label: 'English', flag: '🇺🇸' },
     { code: 'hi', label: 'हिन्दी', flag: '🇮🇳' },
     { code: 'mr', label: 'मराठी', flag: '🇮🇳' }
@@ -21,6 +24,255 @@ const DreamsUnderstanding = () => {
 
   // Content based on selected language
   const content = {
+    et: {
+      title: 'Understanding Your Dreams',
+      description: 'Discover what financial security means for your family\'s future',
+      sections: [
+        {
+          title: 'What Are Your Dreams?',
+          icon: Heart,
+          color: 'bg-pink-500',
+          summary: 'Identifying your deepest aspirations and goals',
+          details: `Dreams are the foundation of everything we do. They represent our hopes, aspirations, and the future we want to create for ourselves and our families.
+
+Think about what truly matters to you:
+• Your children's education and future
+• A comfortable retirement
+• A home that feels like a sanctuary
+• The ability to help others
+• Financial freedom and peace of mind
+
+These aren't just wishes - they're the roadmap for your life's journey.`,
+          examples: [
+            'Children\'s education fund',
+            'Dream home purchase',
+            'Retirement security',
+            'Family vacation fund',
+            'Charitable giving'
+          ]
+        },
+        {
+          title: 'Why Dreams Need Protection',
+          icon: Shield,
+          color: 'bg-blue-500',
+          summary: 'Understanding the risks that threaten your dreams',
+          details: `Life is unpredictable, and our dreams are vulnerable to unexpected events. Without proper protection, years of planning and saving can be lost in an instant.
+
+Common threats to your dreams include:
+• Loss of income due to illness or injury
+• Unexpected medical expenses
+• Loss of a family breadwinner
+• Natural disasters or accidents
+• Economic downturns
+
+Protection isn't about fear - it's about ensuring your dreams survive life's challenges.`,
+          examples: [
+            'Income protection insurance',
+            'Health insurance coverage',
+            'Life insurance for family',
+            'Emergency fund building',
+            'Disability coverage'
+          ]
+        },
+        {
+          title: 'Building Your Dream Foundation',
+          icon: Target,
+          color: 'bg-green-500',
+          summary: 'Creating a solid base for your aspirations',
+          details: `Every dream needs a strong foundation. Building this foundation requires understanding your current situation and creating a plan that grows with you.
+
+Key elements of a strong foundation:
+• Clear financial goals and timelines
+• Emergency savings for unexpected events
+• Insurance protection for major risks
+• Regular review and adjustment of plans
+• Professional guidance when needed
+
+Remember, the best time to build your foundation is now, not when you need it.`,
+          examples: [
+            'Goal setting and planning',
+            'Emergency fund creation',
+            'Insurance portfolio review',
+            'Regular financial checkups',
+            'Professional consultation'
+          ]
+        }
+      ],
+      ui: {
+        addDream: 'Add Dream',
+        saveDreams: 'Save Dreams',
+        myDreams: 'My Dreams',
+        buildFoundation: 'Build Foundation',
+        nextSection: 'Next Section',
+        previousSection: 'Previous Section'
+      }
+    },
+    uk: {
+      title: 'Understanding Your Dreams',
+      description: 'Discover what financial security means for your family\'s future',
+      sections: [
+        {
+          title: 'What Are Your Dreams?',
+          icon: Heart,
+          color: 'bg-pink-500',
+          summary: 'Identifying your deepest aspirations and goals',
+          details: `Dreams are the foundation of everything we do. They represent our hopes, aspirations, and the future we want to create for ourselves and our families.
+
+Think about what truly matters to you:
+• Your children's education and future
+• A comfortable retirement
+• A home that feels like a sanctuary
+• The ability to help others
+• Financial freedom and peace of mind
+
+These aren't just wishes - they're the roadmap for your life's journey.`,
+          examples: [
+            'Children\'s education fund',
+            'Dream home purchase',
+            'Retirement security',
+            'Family vacation fund',
+            'Charitable giving'
+          ]
+        },
+        {
+          title: 'Why Dreams Need Protection',
+          icon: Shield,
+          color: 'bg-blue-500',
+          summary: 'Understanding the risks that threaten your dreams',
+          details: `Life is unpredictable, and our dreams are vulnerable to unexpected events. Without proper protection, years of planning and saving can be lost in an instant.
+
+Common threats to your dreams include:
+• Loss of income due to illness or injury
+• Unexpected medical expenses
+• Loss of a family breadwinner
+• Natural disasters or accidents
+• Economic downturns
+
+Protection isn't about fear - it's about ensuring your dreams survive life's challenges.`,
+          examples: [
+            'Income protection insurance',
+            'Health insurance coverage',
+            'Life insurance for family',
+            'Emergency fund building',
+            'Disability coverage'
+          ]
+        },
+        {
+          title: 'Building Your Dream Foundation',
+          icon: Target,
+          color: 'bg-green-500',
+          summary: 'Creating a solid base for your aspirations',
+          details: `Every dream needs a strong foundation. Building this foundation requires understanding your current situation and creating a plan that grows with you.
+
+Key elements of a strong foundation:
+• Clear financial goals and timelines
+• Emergency savings for unexpected events
+• Insurance protection for major risks
+• Regular review and adjustment of plans
+• Professional guidance when needed
+
+Remember, the best time to build your foundation is now, not when you need it.`,
+          examples: [
+            'Goal setting and planning',
+            'Emergency fund creation',
+            'Insurance portfolio review',
+            'Regular financial checkups',
+            'Professional consultation'
+          ]
+        }
+      ],
+      ui: {
+        addDream: 'Add Dream',
+        saveDreams: 'Save Dreams',
+        myDreams: 'My Dreams',
+        buildFoundation: 'Build Foundation',
+        nextSection: 'Next Section',
+        previousSection: 'Previous Section'
+      }
+    },
+    ru: {
+      title: 'Understanding Your Dreams',
+      description: 'Discover what financial security means for your family\'s future',
+      sections: [
+        {
+          title: 'What Are Your Dreams?',
+          icon: Heart,
+          color: 'bg-pink-500',
+          summary: 'Identifying your deepest aspirations and goals',
+          details: `Dreams are the foundation of everything we do. They represent our hopes, aspirations, and the future we want to create for ourselves and our families.
+
+Think about what truly matters to you:
+• Your children's education and future
+• A comfortable retirement
+• A home that feels like a sanctuary
+• The ability to help others
+• Financial freedom and peace of mind
+
+These aren't just wishes - they're the roadmap for your life's journey.`,
+          examples: [
+            'Children\'s education fund',
+            'Dream home purchase',
+            'Retirement security',
+            'Family vacation fund',
+            'Charitable giving'
+          ]
+        },
+        {
+          title: 'Why Dreams Need Protection',
+          icon: Shield,
+          color: 'bg-blue-500',
+          summary: 'Understanding the risks that threaten your dreams',
+          details: `Life is unpredictable, and our dreams are vulnerable to unexpected events. Without proper protection, years of planning and saving can be lost in an instant.
+
+Common threats to your dreams include:
+• Loss of income due to illness or injury
+• Unexpected medical expenses
+• Loss of a family breadwinner
+• Natural disasters or accidents
+• Economic downturns
+
+Protection isn't about fear - it's about ensuring your dreams survive life's challenges.`,
+          examples: [
+            'Income protection insurance',
+            'Health insurance coverage',
+            'Life insurance for family',
+            'Emergency fund building',
+            'Disability coverage'
+          ]
+        },
+        {
+          title: 'Building Your Dream Foundation',
+          icon: Target,
+          color: 'bg-green-500',
+          summary: 'Creating a solid base for your aspirations',
+          details: `Every dream needs a strong foundation. Building this foundation requires understanding your current situation and creating a plan that grows with you.
+
+Key elements of a strong foundation:
+• Clear financial goals and timelines
+• Emergency savings for unexpected events
+• Insurance protection for major risks
+• Regular review and adjustment of plans
+• Professional guidance when needed
+
+Remember, the best time to build your foundation is now, not when you need it.`,
+          examples: [
+            'Goal setting and planning',
+            'Emergency fund creation',
+            'Insurance portfolio review',
+            'Regular financial checkups',
+            'Professional consultation'
+          ]
+        }
+      ],
+      ui: {
+        addDream: 'Add Dream',
+        saveDreams: 'Save Dreams',
+        myDreams: 'My Dreams',
+        buildFoundation: 'Build Foundation',
+        nextSection: 'Next Section',
+        previousSection: 'Previous Section'
+      }
+    },
     en: {
       title: 'Understanding Your Dreams',
       description: 'Discover what financial security means for your family\'s future',
@@ -301,7 +553,10 @@ Remember, the best time to build your foundation is now, not when you need it.`,
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = selectedLanguage === 'en' ? 'en-US' : 
-                     selectedLanguage === 'hi' ? 'hi-IN' : 'mr-IN';
+                     selectedLanguage === 'hi' ? 'hi-IN' : 
+                     selectedLanguage === 'mr' ? 'mr-IN' : 
+                     selectedLanguage === 'et' ? 'et-EE' : 
+                     selectedLanguage === 'uk' ? 'uk-UA' : 'ru-RU';
     utterance.rate = 0.9;
     
     utterance.onend = () => setIsSpeaking(false);

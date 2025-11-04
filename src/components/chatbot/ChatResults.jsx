@@ -19,49 +19,49 @@ const ChatResults = ({ learningStyle, scores, onRestart, onClose }) => {
 
   const learningStyles = {
     V: {
-      name: "Visual Learner",
+      name: "Visuaalne õppija",
       emoji: "🎨",
       gif: "/assets/vision.gif",
-      description: "You process information best through videos, charts, and images.",
-      pathway: "Your pathway includes microlearning videos, visual scenarios, and infographics that help you \"see\" cultural patterns clearly.",
+      description: "Töötled infot kõige paremini videote, graafikute ja piltide kaudu.",
+      pathway: "Sinu teekond sisaldab mikrovideosid, visuaalseid stsenaariume ja infograafikuid, mis aitavad mustreid selgelt näha.",
       color: "from-blue-500 to-cyan-500",
       icon: EyeOpenIcon
     },
     A: {
-      name: "Auditory Learner",
+      name: "Auditoorne õppija",
       emoji: "🎧",
       gif: "/assets/sound-wave-ear.gif",
-      description: "You learn best by listening and reflecting.",
-      pathway: "Your course will include immersive reading with narration, podcast-style discussions, and audio-based storytelling.",
+      description: "Õpid kõige paremini kuulates ja mõtiskledes.",
+      pathway: "Sinu kursus hõlmab jutustusega lugemist, taskuhäälingu-laadseid arutelusid ja helipõhist jutustamist.",
       color: "from-green-500 to-emerald-500",
       icon: SpeakerLoudIcon
     },
     K: {
-      name: "Interactive Learner",
+      name: "Praktiline õppija",
       emoji: "🤝",
       gif: "/assets/video-conference.gif",
-      description: "You grasp concepts through doing and experiencing.",
-      pathway: "Your path will include interactive simulations, cultural exercises, and role-play challenges.",
+      description: "Mõistad kontseptsioone tehes ja kogedes.",
+      pathway: "Sinu teekond hõlmab interaktiivseid simulatsioone, harjutusi ja rollimänge.",
       color: "from-orange-500 to-amber-500",
       icon: HandIcon
     },
     G: {
-      name: "Game-Driven Learner",
+      name: "Mänguline õppija",
       emoji: "🏆",
       gif: "/assets/gamer.gif",
-      description: "You thrive on challenges and rewards.",
-      pathway: "Your path will feature missions, leaderboards, points, and cultural quizzes — turning learning into play!",
+      description: "Sind motiveerivad väljakutsed ja preemiad.",
+      pathway: "Sinu teekond sisaldab missioone, edetabeleid, punkte ja viktoriine — õppimine kui mäng!",
       color: "from-purple-500 to-pink-500",
       icon: StarIcon
     }
   };
 
   const messages = [
-    "🌍 Thank you for completing your learning style assessment!",
-    `You're a ${learningStyles[learningStyle].name}!`,
+    "🌍 Aitäh, et lõpetasid õppimisstiili hindamise!",
+    `Sinu stiil on: ${learningStyles[learningStyle].name}!`,
     learningStyles[learningStyle].description,
     learningStyles[learningStyle].pathway,
-    "I've designed a personalized learning journey based on your responses. Click below to begin your customized Cross-Cultural Communication course."
+    "Koostasime sinu vastuste põhjal isikupärastatud õpiteekonna. Alusta allpool nupuga."
   ];
 
   useEffect(() => {
@@ -95,7 +95,7 @@ const ChatResults = ({ learningStyle, scores, onRestart, onClose }) => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Athena</h3>
-                  <p className="text-sm opacity-90">Assessment Complete</p>
+                  <p className="text-sm opacity-90">Hindamine lõpetatud</p>
                 </div>
               </div>
               <div className="text-2xl">{style.emoji}</div>
@@ -157,7 +157,7 @@ const ChatResults = ({ learningStyle, scores, onRestart, onClose }) => {
             {currentMessage >= 3 && (
               <div className="flex justify-center">
                 <div className="bg-white border rounded-lg p-4 max-w-sm w-full">
-                  <h5 className="font-semibold text-gray-900 mb-3 text-center">Your Learning Profile</h5>
+                  <h5 className="font-semibold text-gray-900 mb-3 text-center">Sinu õpistiili profiil</h5>
                   <div className="grid grid-cols-4 gap-2">
                     {Object.entries(scores).map(([key, score]) => {
                       const styleInfo = learningStyles[key];
@@ -193,7 +193,7 @@ const ChatResults = ({ learningStyle, scores, onRestart, onClose }) => {
                   size="sm"
                 >
                   <UpdateIcon className="w-4 h-4 mr-2" />
-                  Retake
+                  Tee uuesti
                 </Button>
                 <Button
                   onClick={onClose}
@@ -201,7 +201,7 @@ const ChatResults = ({ learningStyle, scores, onRestart, onClose }) => {
                   className="bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white"
                 >
                   <ArrowRightIcon className="w-4 h-4 mr-2" />
-                  Start My Journey
+                  Alusta teekonda
                 </Button>
               </div>
             )}

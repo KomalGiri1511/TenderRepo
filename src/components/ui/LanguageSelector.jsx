@@ -18,6 +18,24 @@ const LANGUAGES = [
     nativeName: 'English'
   },
   {
+    code: 'et',
+    name: 'Estonian',
+    flag: '🇪🇪',
+    nativeName: 'Eesti'
+  },
+  {
+    code: 'uk',
+    name: 'Ukrainian',
+    flag: '🇺🇦',
+    nativeName: 'Українська'
+  },
+  {
+    code: 'ru',
+    name: 'Russian',
+    flag: '🇷🇺',
+    nativeName: 'Русский'
+  },
+  {
     code: 'ar',
     name: 'Arabic',
     flag: '🇸🇦',

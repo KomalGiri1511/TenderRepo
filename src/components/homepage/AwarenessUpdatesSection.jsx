@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -10,9 +10,14 @@ import {
   Video,
   Bell,
   ChevronRight,
-  Info
+  Volume2
 } from 'lucide-react';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip';
+
+// Accessible Screen Reader Label Helper
+const VisuallyHidden = ({ children }) => (
+  <span className="sr-only">{children}</span>
+);
 
 const AnnouncementItem = ({ announcement, isActive, onClick }) => {
   const { t } = useTranslation();
@@ -33,6 +38,7 @@ const AnnouncementItem = ({ announcement, isActive, onClick }) => {
   return (
     <button
       onClick={onClick}
+      aria-label={`View ${announcement.title}`}
       className={`
         w-full text-left p-3 rounded-lg transition-all duration-300
         ${isActive 
@@ -50,7 +56,10 @@ const AnnouncementItem = ({ announcement, isActive, onClick }) => {
         </div>
         <div className="flex-1 min-w-0">
           <div className="flex items-start gap-1.5 mb-1">
-            <h4 className={`font-bold text-xs leading-tight flex-1 line-clamp-2 ${isActive ? 'text-white' : 'text-gray-900'}`} style={{ fontFamily: "'Inter', 'Nunito', sans-serif" }}>
+            <h4 
+              className={`font-bold text-xs leading-tight flex-1 line-clamp-2 ${isActive ? 'text-white' : 'text-gray-900'}`}
+              style={{ fontFamily: "'Inter', 'Nunito', sans-serif" }}
+            >
               {announcement.title}
             </h4>
             {announcement.isNew && !isActive && (
@@ -75,36 +84,37 @@ const AnnouncementItem = ({ announcement, isActive, onClick }) => {
 export function AwarenessUpdatesSection() {
   const { t } = useTranslation();
   const [selectedAnnouncement, setSelectedAnnouncement] = useState(0);
+  const synthRef = useRef(window.speechSynthesis);
 
-  // Demo announcements for pitch presentation
+  // Accessible announcements (placeholders only)
   const announcements = [
     {
       id: 1,
       type: 'reform',
-      title: 'Policy Update',
-      date: 'Oct 1, 2025',
-      description: 'Latest policy updates and implementation guidelines for workplace practices.',
-      thumbnail: '/assets/UnderstandingNewLabourCodes.PNG',
+      title: 'Placeholder Update 1',
+      date: 'Date Placeholder',
+      description: 'This is placeholder text for an announcement description.',
+      thumbnail: '/placeholder.svg',
       isNew: true,
       hasVideo: false
     },
     {
       id: 2,
       type: 'webinar',
-      title: 'Training Session',
-      date: 'Sep 28, 2025',
-      description: 'Interactive training session focusing on compliance and best practices.',
-      thumbnail: '/assets/Workplace Compliance Awareness.PNG',
+      title: 'Placeholder Update 2',
+      date: 'Date Placeholder',
+      description: 'This is placeholder text for an announcement description.',
+      thumbnail: '/placeholder.svg',
       isNew: true,
       hasVideo: true
     },
     {
       id: 3,
       type: 'video',
-      title: 'Educational Content',
-      date: 'Sep 25, 2025',
-      description: 'Educational content covering essential skills and workplace competencies.',
-      thumbnail: '/assets/Digital literacy.jpg',
+      title: 'Placeholder Update 3',
+      date: 'Date Placeholder',
+      description: 'This is placeholder text for an announcement description.',
+      thumbnail: '/placeholder.svg',
       isNew: false,
       hasVideo: true
     },
@@ -112,40 +122,61 @@ export function AwarenessUpdatesSection() {
 
   const currentAnnouncement = announcements[selectedAnnouncement];
 
+  // 🗣️ Text-to-Speech handler
+  const handleSpeak = () => {
+    if (synthRef.current.speaking) synthRef.current.cancel();
+    const text = `${currentAnnouncement.title}. ${currentAnnouncement.description}`;
+    const utter = new SpeechSynthesisUtterance(text);
+    utter.rate = 1;
+    utter.pitch = 1;
+    utter.lang = 'en-US';
+    synthRef.current.speak(utter);
+  };
+
   return (
-    <section className="w-full bg-gradient-to-br from-gray-50 to-blue-50/50 py-8 px-6 rounded-2xl shadow-sm border border-gray-100">
+    <section 
+      className="w-full bg-gradient-to-br from-gray-50 to-blue-50/50 py-8 px-6 rounded-2xl shadow-sm border border-gray-100"
+      aria-labelledby="awareness-heading"
+    >
       {/* Header */}
       <div className="max-w-7xl mx-auto mb-6">
-        <h2 className="text-2xl font-bold text-gray-900 mb-2 flex items-center gap-2" style={{ fontFamily: "'Inter', 'Nunito', sans-serif" }}>
-          <span className="text-2xl">📢</span>
-          User Awareness Section
+        <h2 id="awareness-heading" className="text-2xl font-bold text-gray-900 mb-2 flex items-center gap-2">
+          <span role="img" aria-label="megaphone">📢</span>
+          Announcements (Placeholder)
         </h2>
         <p className="text-sm text-gray-600">
-          This section shows user awareness content - all updates and events are here
+          Placeholder announcements for design and layout. Content to be updated.
         </p>
+        <div className="mt-2 inline-flex items-center gap-2 rounded-full bg-blue-50 text-blue-700 border border-blue-200 px-3 py-1 text-xs font-semibold">
+          <Volume2 className="w-3.5 h-3.5" />
+          Speaker available: tap the speaker to listen (placeholder)
+        </div>
       </div>
 
-      {/* Split View Layout */}
+      {/* Split Layout */}
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Left Side - Featured Media Panel */}
+          {/* Left - Featured Content */}
           <div className="lg:col-span-2">
             <Card className="border-2 shadow-xl bg-white overflow-hidden">
               <CardContent className="p-0">
-                {/* Featured Image/Video */}
-                <div className="relative h-[160px] bg-gradient-to-br from-gray-100 to-blue-100">
+                {/* Thumbnail / Video Preview */}
+                <div className="relative h-[200px] bg-gray-100">
                   <img 
                     src={currentAnnouncement.thumbnail} 
                     alt={currentAnnouncement.title}
                     className="w-full h-full object-cover"
                   />
+                  
                   {currentAnnouncement.hasVideo && (
-                    <div className="absolute inset-0 flex items-center justify-center bg-black/30">
-                      <div className="text-center">
-                        
-                      </div>
-                    </div>
+                    <button
+                      aria-label={`Play video for ${currentAnnouncement.title}`}
+                      className="absolute inset-0 flex items-center justify-center bg-black/40 hover:bg-black/50 transition-all"
+                    >
+                      <PlayCircle className="w-14 h-14 text-white drop-shadow-lg" />
+                    </button>
                   )}
+
                   {currentAnnouncement.isNew && (
                     <div className="absolute top-2 right-2">
                       <Badge className="bg-red-500 text-white border-none shadow-lg flex items-center gap-1 px-2 py-0.5 text-xs">
@@ -158,21 +189,41 @@ export function AwarenessUpdatesSection() {
 
                 {/* Content */}
                 <div className="p-4">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Badge className="bg-[#004E9A] text-white text-xs px-2 py-0.5">
-                      {t(`awareness.types.${currentAnnouncement.type}`)}
-                    </Badge>
-                    <span className="text-xs text-gray-500 flex items-center gap-1">
-                      <Calendar className="w-3 h-3" />
-                      {currentAnnouncement.date}
-                    </span>
+                  <div className="flex items-center justify-between mb-3">
+                    <div className="flex items-center gap-2">
+                      <Badge className="bg-[#004E9A] text-white text-xs px-2 py-0.5 capitalize">
+                        {currentAnnouncement.type}
+                      </Badge>
+                      <span className="text-xs text-gray-500 flex items-center gap-1">
+                        <Calendar className="w-3 h-3" />
+                        {currentAnnouncement.date}
+                      </span>
+                    </div>
+
+                    {/* Speaker Button */}
+                    <TooltipProvider>
+                      <Tooltip>
+                        <TooltipTrigger asChild>
+                          <Button
+                            variant="ghost"
+                            size="icon"
+                            onClick={handleSpeak}
+                            aria-label="Listen to placeholder announcement"
+                          >
+                            <Volume2 className="w-5 h-5 text-[#004E9A]" />
+                          </Button>
+                        </TooltipTrigger>
+                        <TooltipContent>
+                          <p>Listen to this placeholder update</p>
+                        </TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
                   </div>
 
-                  <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2" style={{ fontFamily: "'Inter', 'Nunito', sans-serif" }}>
+                  <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">
                     {currentAnnouncement.title}
                   </h3>
-
-                  <p className="text-sm text-gray-600 leading-relaxed mb-3 line-clamp-2">
+                  <p className="text-sm text-gray-700 leading-relaxed mb-3 line-clamp-3">
                     {currentAnnouncement.description}
                   </p>
 
@@ -180,12 +231,12 @@ export function AwarenessUpdatesSection() {
                     {currentAnnouncement.hasVideo ? (
                       <>
                         <PlayCircle className="w-4 h-4 mr-2" />
-                        {t('awareness.watchNow')}
+                        Play Placeholder
                       </>
                     ) : (
                       <>
                         <FileText className="w-4 h-4 mr-2" />
-                        {t('awareness.readMore')}
+                        Open Placeholder
                       </>
                     )}
                   </Button>
@@ -194,16 +245,16 @@ export function AwarenessUpdatesSection() {
             </Card>
           </div>
 
-          {/* Right Side - Scrollable Announcements List */}
+          {/* Right - Announcements List */}
           <div className="lg:col-span-1">
             <Card className="border-2 shadow-lg bg-white">
               <CardContent className="p-4">
-                <h3 className="font-bold text-gray-900 mb-3 flex items-center gap-2" style={{ fontFamily: "'Inter', 'Nunito', sans-serif" }}>
+                <h3 className="font-bold text-gray-900 mb-3 flex items-center gap-2">
                   <Bell className="w-4 h-4 text-[#004E9A]" />
-                  {t('awareness.latestAnnouncements')}
+                  Placeholder Announcements
                 </h3>
                 
-                <div className="space-y-2">
+                <div className="space-y-2" role="list">
                   {announcements.map((announcement, index) => (
                     <AnnouncementItem
                       key={announcement.id}
@@ -219,15 +270,15 @@ export function AwarenessUpdatesSection() {
         </div>
       </div>
 
-      {/* Footer - Supported by GIZ */}
+      {/* Footer */}
       <div className="max-w-7xl mx-auto mt-8 flex justify-end">
         <div className="flex items-center gap-2 text-xs text-gray-500">
-          <span>{t('awareness.poweredBy')}</span>
+          <span>Powered by</span>
           <div className="flex items-center gap-1.5 bg-white px-3 py-1 rounded-full shadow-sm border border-gray-200">
             <div className="w-5 h-5 bg-[#004E9A] rounded-sm flex items-center justify-center text-white font-bold text-[8px]">
-              GIZ
+              LMS
             </div>
-            <span className="font-semibold text-[#004E9A]">{t('awareness.labourReformInitiative')}</span>
+            <span className="font-semibold text-[#004E9A]">Placeholder Initiative</span>
           </div>
         </div>
       </div>
@@ -236,4 +287,3 @@ export function AwarenessUpdatesSection() {
 }
 
 export default AwarenessUpdatesSection;
-

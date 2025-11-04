@@ -74,6 +74,9 @@ const Resources = () => {
   ];
 
   const languages = [
+    { code: 'et', label: t('resources.languages.et'), flag: '🇪🇪' },
+    { code: 'uk', label: t('resources.languages.uk'), flag: '🇺🇦' },
+    { code: 'ru', label: t('resources.languages.ru'), flag: '🇷🇺' },
     { code: 'en', label: t('resources.languages.en'), flag: '🇬🇧' },
     { code: 'ar', label: t('resources.languages.ar'), flag: '🇸🇦' },
     { code: 'de', label: t('resources.languages.de'), flag: '🇩🇪' },
@@ -165,17 +168,17 @@ const Resources = () => {
             </div>
             
             {/* Right side: Premium Blue Logo badge */}
-            <div className="relative">
-              <div className="flex items-center gap-3 bg-gradient-to-br from-blue-600 to-blue-700 px-6 py-4 rounded-xl shadow-xl border-2 border-blue-500">
-                <div className="bg-white rounded-lg p-2.5 shadow-lg">
-                  <div className="text-blue-600 font-bold text-xl leading-none">GIZ</div>
-                </div>
-                <div className="border-l-2 border-blue-400 pl-3">
-                  <div className="text-white font-bold text-base">Learning Hub</div>
-                  <div className="text-blue-200 text-xs">Powered by LMS</div>
+              <div className="relative">
+                <div className="flex items-center gap-3 bg-gradient-to-br from-blue-600 to-blue-700 px-6 py-4 rounded-xl shadow-xl border-2 border-blue-500">
+                  <div className="bg-white rounded-lg p-2.5 shadow-lg">
+                    <div className="text-blue-600 font-bold text-xl leading-none">IS</div>
+                  </div>
+                  <div className="border-l-2 border-blue-400 pl-3">
+                    <div className="text-white font-bold text-base">Integratsiooni Sihtasutus</div>
+                    <div className="text-blue-200 text-xs">Learning Hub</div>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
 
           {/* Premium Blue Search Bar and Language Switcher */}

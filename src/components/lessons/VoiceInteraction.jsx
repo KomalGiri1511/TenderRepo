@@ -16,6 +16,9 @@ const VoiceInteraction = () => {
 
   // Language options
   const languageOptions = [
+    { code: 'et-EE', label: 'Eesti', flag: '🇪🇪' },
+    { code: 'uk-UA', label: 'Українська', flag: '🇺🇦' },
+    { code: 'ru-RU', label: 'Русский', flag: '🇷🇺' },
     { code: 'en-US', label: 'English', flag: '🇺🇸' },
     { code: 'hi-IN', label: 'हिन्दी', flag: '🇮🇳' },
     { code: 'mr-IN', label: 'मराठी', flag: '🇮🇳' }
@@ -23,6 +26,24 @@ const VoiceInteraction = () => {
 
   // Response mappings for different languages
   const responseMap = {
+    'et-EE': {
+      'flexibility': 'Flexibility means choosing your policy terms, premium payment options, and modes that fit your goals.',
+      'benefits': 'Benefits include life cover, guaranteed income, savings booster, and tax savings.',
+      'assurance': 'Assurance provides guaranteed returns and financial security for your family\'s future.',
+      'default': 'Sorry, I can only answer about Flexibility, Benefits, or Assurance right now.'
+    },
+    'uk-UA': {
+      'flexibility': 'Flexibility means choosing your policy terms, premium payment options, and modes that fit your goals.',
+      'benefits': 'Benefits include life cover, guaranteed income, savings booster, and tax savings.',
+      'assurance': 'Assurance provides guaranteed returns and financial security for your family\'s future.',
+      'default': 'Sorry, I can only answer about Flexibility, Benefits, or Assurance right now.'
+    },
+    'ru-RU': {
+      'flexibility': 'Flexibility means choosing your policy terms, premium payment options, and modes that fit your goals.',
+      'benefits': 'Benefits include life cover, guaranteed income, savings booster, and tax savings.',
+      'assurance': 'Assurance provides guaranteed returns and financial security for your family\'s future.',
+      'default': 'Sorry, I can only answer about Flexibility, Benefits, or Assurance right now.'
+    },
     'en-US': {
       'flexibility': 'Flexibility means choosing your policy terms, premium payment options, and modes that fit your goals.',
       'benefits': 'Benefits include life cover, guaranteed income, savings booster, and tax savings.',

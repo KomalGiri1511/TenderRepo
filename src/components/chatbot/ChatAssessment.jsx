@@ -22,133 +22,133 @@ const ChatAssessment = ({ onComplete, onClose }) => {
   const questions = [
     {
       id: 1,
-      question: "When learning something new, what helps you most?",
+      question: "Uut õppides, mis aitab Sind kõige rohkem?",
       options: [
-        { text: "Watching a video or visual presentation.", value: "V", icon: EyeOpenIcon },
-        { text: "Listening to someone explain it clearly.", value: "A", icon: SpeakerLoudIcon },
-        { text: "Trying it out myself to see how it works.", value: "K", icon: HandIcon },
-        { text: "Competing in a quiz or interactive game.", value: "G", icon: StarIcon }
+        { text: "Video või visuaalse esitluse vaatamine.", value: "V", icon: EyeOpenIcon },
+        { text: "Selget selgitust kuulamine.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Ise proovimine, et näha kuidas töötab.", value: "K", icon: HandIcon },
+        { text: "Viktoriinis või mängus osalemine.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 2,
-      question: "When you attend an online session, what do you focus on most?",
+      question: "Veebisessioonil osaledes, millele keskendud kõige rohkem?",
       options: [
-        { text: "Slides, charts, and visuals used by the presenter.", value: "V", icon: EyeOpenIcon },
-        { text: "The speaker's tone, examples, and explanations.", value: "A", icon: SpeakerLoudIcon },
-        { text: "The chance to participate or do an activity.", value: "K", icon: HandIcon },
-        { text: "Polls, badges, or points that make it fun.", value: "G", icon: StarIcon }
+        { text: "Esineja slaidid, graafikud ja visuaalid.", value: "V", icon: EyeOpenIcon },
+        { text: "Rääkimisviis, näited ja selgitused.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Võimalus osaleda või tegevust teha.", value: "K", icon: HandIcon },
+        { text: "Hääletused, märgid või punktid, mis teevad lõbusaks.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 3,
-      question: "You need to understand a new cultural concept. How would you prefer to learn it?",
+      question: "Pead mõistma uut kultuurilist mõistet. Kuidas eelistad õppida?",
       options: [
-        { text: "Through a short explainer video or infographic.", value: "V", icon: EyeOpenIcon },
-        { text: "By listening to a podcast or narrated story.", value: "A", icon: SpeakerLoudIcon },
-        { text: "By simulating a real-world business scenario.", value: "K", icon: HandIcon },
-        { text: "By playing a game that reveals cultural norms.", value: "G", icon: StarIcon }
+        { text: "Lühikese selgitava video või infograafikaga.", value: "V", icon: EyeOpenIcon },
+        { text: "Kuulates podcasti või jutustust.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Simuleerides päriselu olukorda.", value: "K", icon: HandIcon },
+        { text: "Mängides mängu, mis toob normid esile.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 4,
-      question: "How do you remember information better?",
+      question: "Kuidas mäletad infot paremini?",
       options: [
-        { text: "I visualize it in pictures or diagrams.", value: "V", icon: EyeOpenIcon },
-        { text: "I hear it replayed in my mind.", value: "A", icon: SpeakerLoudIcon },
-        { text: "I recall the experience of doing it.", value: "K", icon: HandIcon },
-        { text: "I remember winning a challenge or solving a quiz.", value: "G", icon: StarIcon }
+        { text: "Kujutan seda ette piltide või diagrammidena.", value: "V", icon: EyeOpenIcon },
+        { text: "Kuulen seda peas uuesti.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Mäletan tegemise kogemust.", value: "K", icon: HandIcon },
+        { text: "Mäletan väljakutse võitu või viktoriini lahendust.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 5,
-      question: "During meetings or classes, what keeps your attention?",
+      question: "Koosolekul või tunnis, mis hoiab tähelepanu?",
       options: [
-        { text: "Visual slides and motion graphics.", value: "V", icon: EyeOpenIcon },
-        { text: "Voice, tone, and storytelling by the speaker.", value: "A", icon: SpeakerLoudIcon },
-        { text: "Activities, discussions, or demonstrations.", value: "K", icon: HandIcon },
-        { text: "Interactive polls, competitions, or live quizzes.", value: "G", icon: StarIcon }
+        { text: "Visuaalsed slaidid ja animatsioonid.", value: "V", icon: EyeOpenIcon },
+        { text: "Esineja hääl, toon ja lood.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Tegevused, arutelud või demonstratsioonid.", value: "K", icon: HandIcon },
+        { text: "Interaktiivsed hääletused, võistlused või viktoriinid.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 6,
-      question: "How do you prefer to review what you've learned?",
+      question: "Kuidas eelistad õpitut üle vaadata?",
       options: [
-        { text: "Watching summary videos or scanning visuals.", value: "V", icon: EyeOpenIcon },
-        { text: "Listening to recordings or reading out loud.", value: "A", icon: SpeakerLoudIcon },
-        { text: "Doing a quick exercise or applying it.", value: "K", icon: HandIcon },
-        { text: "Taking a short gamified quiz or unlocking levels.", value: "G", icon: StarIcon }
+        { text: "Kokkuvõtlike videote või visuaalide vaatamine.", value: "V", icon: EyeOpenIcon },
+        { text: "Salvestiste kuulamine või valjult lugemine.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Kiire harjutus või õpitu rakendamine.", value: "K", icon: HandIcon },
+        { text: "Lühike mängustatud viktoriin või tasemete avamine.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 7,
-      question: "If you were learning about cross-cultural negotiation, what would you do?",
+      question: "Kui õpid ristkultuurilist läbirääkimist, mida teeksid?",
       options: [
-        { text: "Watch sample negotiation videos from real meetings.", value: "V", icon: EyeOpenIcon },
-        { text: "Listen to expert discussions or cultural insights.", value: "A", icon: SpeakerLoudIcon },
-        { text: "Try a mock negotiation role-play online.", value: "K", icon: HandIcon },
-        { text: "Play a \"Cultural Compass\" challenge.", value: "G", icon: StarIcon }
+        { text: "Vaata näidis-videoid päris kohtumistest.", value: "V", icon: EyeOpenIcon },
+        { text: "Kuula ekspertarutelusid või kultuurilisi vaateid.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Proovi rollimängu või simulatsiooni.", value: "K", icon: HandIcon },
+        { text: "Mängi \"Kultuurikompass\" väljakutset.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 8,
-      question: "When faced with a problem, how do you usually solve it?",
+      question: "Probleemi korral, kuidas tavaliselt lahendad?",
       options: [
-        { text: "Sketch or visualize possible solutions.", value: "V", icon: EyeOpenIcon },
-        { text: "Talk it through or think aloud.", value: "A", icon: SpeakerLoudIcon },
-        { text: "Experiment or test it practically.", value: "K", icon: HandIcon },
-        { text: "Turn it into a challenge or puzzle to solve.", value: "G", icon: StarIcon }
+        { text: "Joonistan või kujutan lahendusi ette.", value: "V", icon: EyeOpenIcon },
+        { text: "Räägin läbi või mõtlen valjusti.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Katsetan või proovin praktiliselt.", value: "K", icon: HandIcon },
+        { text: "Teen sellest väljakutse või mõistatuse.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 9,
-      question: "What kind of content do you find most engaging during training?",
+      question: "Milline sisu on koolitusel kõige kaasavam?",
       options: [
-        { text: "Visual animations, infographics, and images.", value: "V", icon: EyeOpenIcon },
-        { text: "Narrated stories or conversational podcasts.", value: "A", icon: SpeakerLoudIcon },
-        { text: "Interactive simulations or case-based exercises.", value: "K", icon: HandIcon },
-        { text: "Gamified missions, badges, and cultural quizzes.", value: "G", icon: StarIcon }
+        { text: "Visuaalsed animatsioonid, infograafikad ja pildid.", value: "V", icon: EyeOpenIcon },
+        { text: "Jutustatud lood või vestlus-podcastid.", value: "A", icon: SpeakerLoudIcon },
+        { text: "Interaktiivsed simulatsioonid või juhtumipõhised harjutused.", value: "K", icon: HandIcon },
+        { text: "Mängustatud missioonid, märgid ja viktoriinid.", value: "G", icon: StarIcon }
       ]
     },
     {
       id: 10,
-      question: "If you had to describe your learning personality in one line, it would be...",
+      question: "Kui kirjeldaksid oma õppimisstiili ühe lausega, see oleks...",
       options: [
-        { text: "\"I learn by seeing.\"", value: "V", icon: EyeOpenIcon },
-        { text: "\"I learn by listening.\"", value: "A", icon: SpeakerLoudIcon },
-        { text: "\"I learn by doing.\"", value: "K", icon: HandIcon },
-        { text: "\"I learn by playing and competing.\"", value: "G", icon: StarIcon }
+        { text: "\"Õpin nägemise kaudu.\"", value: "V", icon: EyeOpenIcon },
+        { text: "\"Õpin kuulamise kaudu.\"", value: "A", icon: SpeakerLoudIcon },
+        { text: "\"Õpin tehes.\"", value: "K", icon: HandIcon },
+        { text: "\"Õpin mängides ja võisteldes.\"", value: "G", icon: StarIcon }
       ]
     }
   ];
 
   const learningStyles = {
     V: {
-      name: "Visual Learner",
+      name: "Visuaalne õppija",
       emoji: "🎨",
-      description: "You process information best through videos, charts, and images.",
-      pathway: "Your pathway includes microlearning videos, visual scenarios, and infographics that help you \"see\" cultural patterns clearly.",
+      description: "Töötled infot kõige paremini videote, graafikute ja piltide kaudu.",
+      pathway: "Sinu teekond sisaldab mikrovideosid, visuaalseid stsenaariume ja infograafikuid, mis aitavad mustreid \"näha\".",
       color: "from-blue-500 to-cyan-500"
     },
     A: {
-      name: "Auditory Learner",
+      name: "Auditoorne õppija",
       emoji: "🎧",
-      description: "You learn best by listening and reflecting.",
-      pathway: "Your course will include immersive reading with narration, podcast-style discussions, and audio-based storytelling.",
+      description: "Õpid kõige paremini kuulates ja mõtiskledes.",
+      pathway: "Sinu kursus hõlmab jutustusega lugemist, arutelusid ja helipõhist jutustamist.",
       color: "from-green-500 to-emerald-500"
     },
     K: {
-      name: "Interactive Learner",
+      name: "Praktiline õppija",
       emoji: "🤝",
-      description: "You grasp concepts through doing and experiencing.",
-      pathway: "Your path will include interactive simulations, cultural exercises, and role-play challenges.",
+      description: "Mõistad kontseptsioone tehes ja kogedes.",
+      pathway: "Sinu teekond hõlmab interaktiivseid simulatsioone, harjutusi ja rollimänge.",
       color: "from-orange-500 to-amber-500"
     },
     G: {
-      name: "Game-Driven Learner",
+      name: "Mänguline õppija",
       emoji: "🏆",
-      description: "You thrive on challenges and rewards.",
-      pathway: "Your path will feature missions, leaderboards, points, and cultural quizzes — turning learning into play!",
+      description: "Sind motiveerivad väljakutsed ja preemiad.",
+      pathway: "Sinu teekond sisaldab missioone, edetabeleid, punkte ja viktoriine — õppimine kui mäng!",
       color: "from-purple-500 to-pink-500"
     }
   };
@@ -219,11 +219,11 @@ const ChatAssessment = ({ onComplete, onClose }) => {
                 </div>
                 <div>
                   <h3 className="font-semibold">Athena</h3>
-                  <p className="text-sm opacity-90">Learning Style Assessment</p>
+                  <p className="text-sm opacity-90">Õppimisstiili hindamine</p>
                 </div>
               </div>
               <div className="text-sm opacity-90">
-                Question {currentStep + 1} of {questions.length}
+                Küsimus {currentStep + 1} / {questions.length}
               </div>
             </div>
             
@@ -249,7 +249,7 @@ const ChatAssessment = ({ onComplete, onClose }) => {
                   </div>
                 ) : (
                   <p className="text-sm text-gray-700">
-                    Q{currentStep + 1}. {currentQuestion.question}
+                    K{currentStep + 1}. {currentQuestion.question}
                   </p>
                 )}
               </div>

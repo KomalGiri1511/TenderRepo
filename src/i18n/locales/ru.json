@@ -1,0 +1,47 @@
+{
+  "resources": {
+    "languages": {
+      "et": "Эстонский",
+      "uk": "Украинский",
+      "ru": "Русский",
+      "en": "Английский",
+      "ar": "Арабский",
+      "de": "Немецкий",
+      "es": "Испанский"
+    }
+  },
+  "header": {
+    "appName": "Athena LMS",
+    "search": "Поиск...",
+    "calendar": "Календарь",
+    "inbox": "Входящие",
+    "notifications": "Уведомления",
+    "language": "Язык",
+    "labourReform": "Трудовая реформа &",
+    "digitalLearningInitiative": "Инициатива цифрового обучения",
+    "adminPortal": "Админ-портал"
+  },
+  "navigation": {
+    "home": "Главная",
+    "courses": "Курсы",
+    "groups": "Группы",
+    "catalog": "Каталог",
+    "resources": "Ресурсы и База знаний",
+    "messages": "Сообщения",
+    "help": "Помощь и Поддержка",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "logout": "Выйти",
+    "helpMenu": {
+      "faqs": "Частые вопросы",
+      "contactSupport": "Связаться с поддержкой",
+      "userGuides": "Руководства пользователя",
+      "supportTicket": "Тикет в поддержку"
+    }
+  },
+  "dashboard": {
+    "loadingDashboard": "Загрузка панели Integratsiooni Sihtasutus..."
+  }
+}
+
+
